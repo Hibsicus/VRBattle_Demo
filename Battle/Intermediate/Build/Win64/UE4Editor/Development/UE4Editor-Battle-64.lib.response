@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Battle-64.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\UnrealEngine\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\Battle\BaseStateComponent.cpp.obj"
+"G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\Battle\Battle.cpp.obj"
+"G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\Battle\BattleCharacter.cpp.obj"
+"G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\Battle\BattleGameMode.cpp.obj"
+"G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\Battle\Enemy.cpp.obj"
+"G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\Battle\EnemyController.cpp.obj"
+"G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\Battle\VR_Character.cpp.obj"
+"G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\Battle\Battle.generated.cpp.obj"
+"F:\UnrealEngine\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Battle\PCLaunch.rc.res"
+"F:\UnrealEngine\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-64.lib"

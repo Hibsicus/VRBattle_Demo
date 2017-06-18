@@ -1,0 +1,718 @@
+﻿Log file open, 06/15/17 23:08:45
+LogInit:Display: Running engine for game: Battle
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1646813948) SRandInit(1646813949).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 2.815966
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  -skipcompile
+LogInit: Base directory: F:/UnrealEngine/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.15-15.08.46:907][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.15-15.08.46:907][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.15-15.08.47:017][  0]LogInit: Computer: WINDOWS-ACBHQ9K
+[2017.06.15-15.08.47:017][  0]LogInit: User: User
+[2017.06.15-15.08.47:017][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.15-15.08.47:017][  0]LogInit: High frequency timer resolution =3.328127 MHz
+[2017.06.15-15.08.47:018][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.06.15-15.08.47:018][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.15-15.08.47:018][  0]LogMemory: Process Physical Memory: 276.00 MB used, 276.00 MB peak
+[2017.06.15-15.08.47:018][  0]LogMemory: Process Virtual Memory: 266.72 MB used, 266.72 MB peak
+[2017.06.15-15.08.47:018][  0]LogMemory: Physical Memory: 6665.82 MB used,  9628.61 MB free, 16294.43 MB total
+[2017.06.15-15.08.47:018][  0]LogMemory: Virtual Memory: 641.23 MB used,  9628.61 MB free, 134217728.00 MB total
+[2017.06.15-15.08.48:882][  0]LogInit: Using OS detected language (zh-TW).
+[2017.06.15-15.08.48:892][  0]LogInit: Using OS detected locale (zh-TW).
+[2017.06.15-15.08.49:053][  0]LogTextLocalizationManager: No localization for 'zh-TW' exists, so 'en' will be used for the language.
+[2017.06.15-15.08.49:054][  0]LogTextLocalizationManager: No localization for 'zh-TW' exists, so 'en' will be used for the locale.
+[2017.06.15-15.08.51:708][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.15-15.08.54:512][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.06.15-15.08.54:512][  0]LogD3D11RHI:       8145/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.15-15.08.54:529][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.15-15.08.54:529][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.15-15.08.54:529][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.15-15.08.54:535][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.15-15.08.54:535][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.15-15.08.54:535][  0]LogWindows: EnumDisplayDevices:
+[2017.06.15-15.08.54:535][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.06.15-15.08.54:535][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.06.15-15.08.54:536][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.06.15-15.08.54:536][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.06.15-15.08.54:536][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.15-15.08.54:536][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.06.15-15.08.54:536][  0]LogD3D11RHI:   Driver Version: 376.51 (internal:21.21.13.7651, unified:376.51)
+[2017.06.15-15.08.54:536][  0]LogD3D11RHI:      Driver Date: 12-25-2016
+[2017.06.15-15.08.54:536][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.15-15.08.54:994][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.15-15.08.55:292][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.15-15.08.55:374][  0]LogShaderCompilers: Guid format shader working directory is 21 characters bigger than the processId version (G:/Git/VR_Battle/Battle/Intermediate/Shaders/WorkingDirectory/12980/).
+[2017.06.15-15.08.55:374][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/43BADD304891C8082F23A991DCABD159/'.
+[2017.06.15-15.08.55:374][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.15-15.08.57:330][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.15-15.08.57:401][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.15-15.08.57:474][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.15-15.08.57:540][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.15-15.08.57:628][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.15-15.08.57:714][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.15-15.08.57:790][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.15-15.08.57:872][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.15-15.08.57:953][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.15-15.08.58:022][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.15-15.08.58:100][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.15-15.08.58:163][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.15-15.08.58:231][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.15-15.08.58:339][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.15-15.08.58:437][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.15-15.08.58:632][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.15-15.08.58:632][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.15-15.08.58:729][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.15-15.08.58:989][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.15-15.08.59:043][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.15-15.08.59:097][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.15-15.08.59:156][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.15-15.08.59:214][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.15-15.08.59:266][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.15-15.08.59:266][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.15-15.09.03:018][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.15-15.09.03:394][  0]LogDerivedDataCache: Loaded boot cache 0.38s 90MB C:/Users/User/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.15-15.09.03:395][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.15-15.09.03:395][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/Git/VR_Battle/Battle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.15-15.09.03:395][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.15-15.09.03:395][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/Git/VR_Battle/Battle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.15-15.09.03:395][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.15-15.09.03:445][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.15-15.09.03:460][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.15-15.09.03:511][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.15-15.09.03:552][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.15-15.09.03:612][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.15-15.09.03:613][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.15-15.09.07:202][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.15-15.09.07:859][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.15-15.09.09:342][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.15-15.09.09:528][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.15-15.09.09:617][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.15-15.09.09:617][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.15-15.09.09:617][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.15-15.09.13:242][  0]LogNetVersion: Battle , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3797721630)
+[2017.06.15-15.09.13:437][  0]LogAssetRegistry: FAssetRegistry took 0.0294 seconds to start up
+[2017.06.15-15.09.13:671][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.135617 seconds
+[2017.06.15-15.09.13:676][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.15-15.09.13:676][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.15-15.09.13:676][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.15-15.09.13:778][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.15-15.09.37:468][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.15-15.09.37:552][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.15-15.09.40:617][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.15-15.09.41:538][  0]SourceControl: Info Source control is disabled
+[2017.06.15-15.09.41:624][  0]SourceControl: Info Source control is disabled
+[2017.06.15-15.09.41:761][  0]SourceControl: Info Source control is disabled
+[2017.06.15-15.09.41:927][  0]SourceControl: Info Source control is disabled
+[2017.06.15-15.09.43:852][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.15-15.09.46:761][  0]LogEngine: Initializing Engine...
+[2017.06.15-15.09.48:160][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.06.15-15.09.50:422][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.15-15.09.50:423][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.15-15.09.50:834][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.15-15.09.50:956][  0]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.15-15.09.51:106][  0]LogInit: FAudioDevice initialized.
+[2017.06.15-15.09.51:161][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/User/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.15-15.09.51:178][  0]LogInit: Texture streaming: Enabled
+[2017.06.15-15.09.51:534][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.15-15.09.52:147][  0]LogInit: Transaction tracking system initialized
+[2017.06.15-15.09.52:801][  0]BlueprintLog: New page: Editor Load
+[2017.06.15-15.09.55:416][  0]LocalizationService: Info Localization service is disabled
+[2017.06.15-15.09.56:820][  0]LogConsoleResponse:Display: 
+[2017.06.15-15.09.58:619][  0]LogFileCache: Scanning file cache for directory 'G:/Git/VR_Battle/Battle/Content/' took 0.02s
+[2017.06.15-15.09.58:619][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.15-15.09.58:619][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.15-15.10.01:462][  0]SourceControl: Info Source control is disabled
+[2017.06.15-15.10.01:493][  0]Cmd: MAP LOAD FILE="G:/Git/VR_Battle/Battle/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.15-15.10.01:495][  0]LightingResults: New page: Lighting Build
+[2017.06.15-15.10.01:600][  0]MapCheck: New page: Map Check
+[2017.06.15-15.10.01:600][  0]LightingResults: New page: Lighting Build
+[2017.06.15-15.10.02:808][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.15-15.10.03:163][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.15-15.10.03:243][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.15-15.10.03:288][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.849ms to complete.
+[2017.06.15-15.10.03:289][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.802
+[2017.06.15-15.10.04:799][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.15-15.10.04:953][  0]LogCollectionManager: Loaded 0 collections in 0.001224 seconds
+[2017.06.15-15.10.05:068][  0]LogFileCache: Scanning file cache for directory 'G:/Git/VR_Battle/Battle/Saved/Collections/' took 0.01s
+[2017.06.15-15.10.05:068][  0]LogFileCache: Scanning file cache for directory 'G:/Git/VR_Battle/Battle/Content/Developers/User/Collections/' took 0.01s
+[2017.06.15-15.10.05:068][  0]LogFileCache: Scanning file cache for directory 'G:/Git/VR_Battle/Battle/Content/Collections/' took 0.01s
+[2017.06.15-15.10.05:068][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.15-15.10.05:099][  0]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 2334 classes and 495 folders.
+[2017.06.15-15.10.05:174][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.06.15-15.10.06:104][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2017.06.15-15.10.06:161][  0]LogSlate: Took 0.006843 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.15-15.10.06:184][  0]LogSlate: Took 0.013753 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.15-15.10.06:539][  0]LogRenderer: Reallocating scene render targets to support 1160x924 NumSamples 1 (Frame:1).
+[2017.06.15-15.10.06:899][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.15-15.10.07:046][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.06.15-15.10.07:047][  0]LogLoad: (Engine Initialization) Total time: 93.25 seconds
+[2017.06.15-15.10.07:047][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.54 seconds
+[2017.06.15-15.10.07:047][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.15-15.10.07:047][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.15-15.10.07:403][  0]LogOcInput: OculusInput pre-init called
+[2017.06.15-15.10.07:404][  0]LogHMD: Starting GearVRController plugin
+[2017.06.15-15.10.07:490][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.15-15.10.08:393][  3]LogAssetRegistry: Asset discovery search completed in 54.9794 seconds
+[2017.06.15-15.10.08:396][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.15-15.10.08:396][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000158 seconds (updated 0 objects)
+[2017.06.15-15.10.44:707][135]LogSlate: Took 0.015313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.15-15.10.44:745][135]LogSlate: Took 0.011459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.15-15.10.55:828][423]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.15-15.10.56:174][423]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.06.15-15.10.56:512][423]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.15-15.10.56:577][423]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.06.15-15.10.57:246][423]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 112 classes and 0 folders.
+[2017.06.15-15.10.58:041][423]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.06.15-15.10.59:596][423]LogSlate: Took 0.010102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.15-15.10.59:754][423]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0011 seconds. Added 1 classes and 0 folders.
+[2017.06.15-15.11.00:226][424]LogSlate: Took 0.009361 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.15-15.11.42:947][826]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.06.15-15.11.42:981][826]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.06.15-15.11.44:460][826]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.06.15-15.12.55:906][251]LogSavePackage: Save=35.16ms
+[2017.06.15-15.12.55:907][251]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_Montage76C8630241030599E367D0B70E983ACB.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_Montage.uasset'
+[2017.06.15-15.12.55:919][251]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_Montage.uasset
+[2017.06.15-15.13.11:751][802]LogSlate: Took 0.050961 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.06.15-15.13.40:020][553]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.15-15.13.41:153][595]LogSavePackage: Save=173.39ms
+[2017.06.15-15.13.41:153][595]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint9DFF5CDB47DBCA1AE595639E04E966A3.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.15-15.13.41:157][595]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.15-15.16.20:791][684]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.15-15.16.22:115][725]LogSavePackage: Save=189.54ms
+[2017.06.15-15.16.22:115][725]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprintE5A5A59C4E7C763227BC5EB86D6B9AD4.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.15-15.16.22:117][725]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.15-15.16.29:380][531]LogSavePackage: Save=19.10ms
+[2017.06.15-15.16.29:381][531]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_MontageF3DC9EFD4C7625A2A6A6FABF0727C988.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_Montage.uasset'
+[2017.06.15-15.16.29:382][531]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_Montage.uasset
+[2017.06.15-15.18.52:070][752]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.15-15.18.52:898][801]LogSavePackage: Save=188.27ms
+[2017.06.15-15.18.52:898][801]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprintC6665CD64CBE89C825AB189BC2C2040E.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.15-15.18.52:900][801]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.15-15.19.43:318][801]LogSlate: Took 0.013050 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.06.15-15.19.45:333][ 32]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.15-15.19.46:155][ 78]LogSavePackage: Save=189.82ms
+[2017.06.15-15.19.46:155][ 78]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint9FD11D0240B60D7F561B688A0D1B0AA5.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.15-15.19.46:158][ 78]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.15-15.20.02:248][818]BlueprintLog: New page: Compile EnemyBP
+[2017.06.15-15.20.02:844][857]LogSavePackage: Save=32.29ms
+[2017.06.15-15.20.02:844][857]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyBP985EA286498858D69E09B9AC3DF1141C.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset'
+[2017.06.15-15.20.02:846][857]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset
+[2017.06.15-15.20.35:391][791]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.015
+[2017.06.15-15.20.35:416][791]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint] ([1] browsable assets)...
+[2017.06.15-15.20.35:427][791]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint]
+[2017.06.15-15.20.35:428][791]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint]
+[2017.06.15-15.20.35:618][791]LogSavePackage: Save=186.72ms
+[2017.06.15-15.20.35:618][791]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint_Auto11D987B2A440BEC69C8392F8656470286.tmp' to 'G:/Git/VR_Battle/Battle/Saved/Autosaves/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint_Auto1.uasset'
+[2017.06.15-15.20.35:623][791]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Saved/Autosaves/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint_Auto1.uasset
+[2017.06.15-15.20.35:624][791]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/NewBlueprint] ([1] browsable assets)...
+[2017.06.15-15.20.35:624][791]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/NewBlueprint]
+[2017.06.15-15.20.35:632][791]LogSavePackage: Save=6.52ms
+[2017.06.15-15.20.35:632][791]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/NewBlueprint_Auto13D5491154CB37A02BD08AD862B303632.tmp' to 'G:/Git/VR_Battle/Battle/Saved/Autosaves/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/NewBlueprint_Auto1.uasset'
+[2017.06.15-15.20.35:633][791]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Saved/Autosaves/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/NewBlueprint_Auto1.uasset
+[2017.06.15-15.20.35:633][791]LogFileHelpers: Auto-saving content packages took 0.241
+[2017.06.15-15.20.40:375][342]LogMetaData: Removing '/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/ENemyController.ENemyController:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/NewBlueprint.PackageMetaData'
+[2017.06.15-15.20.40:375][342]LogMetaData: Removing '/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/ENemyController.SKEL_ENemyController_C' ref from Metadata '/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/NewBlueprint.PackageMetaData'
+[2017.06.15-15.20.40:376][342]LogMetaData: Removing '/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/ENemyController.ENemyController_C' ref from Metadata '/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/NewBlueprint.PackageMetaData'
+[2017.06.15-15.20.40:376][342]LogMetaData: Removing '/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/ENemyController.ENemyController:EventGraph.K2Node_Event_0' ref from Metadata '/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/NewBlueprint.PackageMetaData'
+[2017.06.15-15.20.40:376][342]LogMetaData: Removing '/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/ENemyController.ENemyController:EventGraph.K2Node_Event_1' ref from Metadata '/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/NewBlueprint.PackageMetaData'
+[2017.06.15-15.20.40:405][342]LogSavePackage: Save=7.14ms
+[2017.06.15-15.20.40:406][342]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/ENemyController5D0E273E424FFADFE15FBFB8C845898C.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/ENemyController.uasset'
+[2017.06.15-15.20.40:407][342]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/ENemyController.uasset
+[2017.06.15-15.21.03:915][952]Running F:/UnrealEngine/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Battle Win64 Development -editorrecompile "G:/Git/VR_Battle/Battle/Battle.uproject" -invalidatemakefilesonly
+[2017.06.15-15.21.04:447][952]Invalidating makefiles only in this run.
+[2017.06.15-15.21.04:752][952]Candidate modules for hot reload:
+[2017.06.15-15.21.04:752][952]  Battle
+[2017.06.15-15.21.04:753][952]Launching UnrealBuildTool... [F:/UnrealEngine/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Battle -ModuleWithSuffix Battle 1100 Win64 Development -editorrecompile -canskiplink "G:/Git/VR_Battle/Battle/Battle.uproject" ]
+[2017.06.15-15.22.37:452][952]CompilerResultsLog: New page: Compilation - Jun 16, 2017, 7:22:37 AM
+[2017.06.15-15.22.37:452][952]CompilerResultsLog: Info Creating makefile for hot reloading Battle (no existing makefile)
+[2017.06.15-15.22.37:452][952]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.15-15.22.37:452][952]CompilerResultsLog: Info Parsing headers for BattleEditor
+[2017.06.15-15.22.37:452][952]CompilerResultsLog: Info   Running UnrealHeaderTool "G:\Git\VR_Battle\Battle\Battle.uproject" "G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\BattleEditor\Development\BattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.15-15.22.37:452][952]CompilerResultsLog: Info Reflection code generated for BattleEditor in 6.53297 seconds
+[2017.06.15-15.22.37:452][952]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2017.06.15-15.22.37:452][952]CompilerResultsLog: Info EnemyController.cpp
+[2017.06.15-15.22.37:452][952]CompilerResultsLog: Info Battle.generated.cpp
+[2017.06.15-15.22.37:453][952]CompilerResultsLog: Info [3/4] Link UE4Editor-Battle-1100.dll
+[2017.06.15-15.22.37:453][952]CompilerResultsLog: Info [4/4] Link UE4Editor-Battle-1100.lib
+[2017.06.15-15.22.37:453][952]CompilerResultsLog: Info    ???b?إߵ{???w G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-1100.lib ?M???? G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-1100.exp
+[2017.06.15-15.22.37:453][952]CompilerResultsLog: Info    ???b?إߵ{???w G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-1100.suppressed.lib ?M???? G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-1100.suppressed.exp
+[2017.06.15-15.22.37:453][952]CompilerResultsLog: Info Total build time: 92.22 seconds (Local executor: 75.78 seconds)
+[2017.06.15-15.22.37:453][952]LogMainFrame: MainFrame: Module compiling took 92.724 seconds
+[2017.06.15-15.22.37:513][952]LogClass: Could not find existing class EnemyController in package /Script/Battle for HotReload, assuming new class
+[2017.06.15-15.22.37:520][952]LogContentBrowser: Native class hierarchy updated for 'Battle' in 0.0012 seconds. Added 5 classes and 2 folders.
+[2017.06.15-15.22.37:523][952]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.15-15.22.37:802][952]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2337 classes and 499 folders.
+[2017.06.15-15.22.37:838][952]Display: HotReload took 93.3s.
+[2017.06.15-15.22.37:840][952]Warning: HotReload operation took 93.3s.
+[2017.06.15-15.22.37:942][952]LogVSAccessor:Warning: Couldn't goto line number '0' in 'G:/Git/VR_Battle/Battle/Source/Battle/EnemyController.h'
+[2017.06.15-15.22.38:011][952]LogVSAccessor:Warning: Couldn't goto line number '0' in 'G:/Git/VR_Battle/Battle/Source/Battle/EnemyController.cpp'
+[2017.06.15-15.22.38:040][952]LogHotReload: New module detected: UE4Editor-Battle-1100.dll
+[2017.06.15-15.22.38:189][953]LogHotReload: Starting Hot-Reload from IDE
+[2017.06.15-15.22.38:294][953]LogContentBrowser: Native class hierarchy updated for 'Battle' in 0.0013 seconds. Added 5 classes and 2 folders.
+[2017.06.15-15.22.38:297][953]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.15-15.22.38:546][953]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2337 classes and 499 folders.
+[2017.06.15-15.22.38:554][953]Display: HotReload took  0.4s.
+[2017.06.15-15.23.24:502][637]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.15-15.23.41:679][582]LogSavePackage: Save=185.97ms
+[2017.06.15-15.23.41:679][582]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprintA88A13B54EADC6935B3669A12E8DF8F2.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.15-15.23.41:684][582]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.15-15.23.41:705][582]LogSavePackage: Save=13.67ms
+[2017.06.15-15.23.41:705][582]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyController_BP974AB9FD41C17390CE3084877E4C3379.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset'
+[2017.06.15-15.23.41:707][582]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset
+[2017.06.15-15.23.54:882][134]BlueprintLog: New page: Compile EnemyBP
+[2017.06.15-15.23.55:888][174]LogSavePackage: Save=25.42ms
+[2017.06.15-15.23.55:888][174]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyBP869F30694602C1C8FA3359929E7793D4.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset'
+[2017.06.15-15.23.55:890][174]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset
+[2017.06.15-15.24.12:841][185]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.15-15.25.42:484][444]BlueprintLog: New page: Compile EnemyController_BP
+[2017.06.15-15.25.43:095][488]LogSavePackage: Save=20.00ms
+[2017.06.15-15.25.43:096][488]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyController_BP747F3E9F4256FEDF04BAD5966461FC69.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset'
+[2017.06.15-15.25.43:098][488]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset
+[2017.06.15-15.26.27:009][608]BlueprintLog: New page: Compile EnemyController_BP
+[2017.06.15-15.26.27:197][608]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'UpdatedActors'. Node:  On Perception Updated (AIPerception)
+[2017.06.15-15.26.27:574][645]LogSavePackage: Save=14.89ms
+[2017.06.15-15.26.27:574][645]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyController_BPF0094460451209BE3FD3E7A5BCB35254.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset'
+[2017.06.15-15.26.27:576][645]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset
+[2017.06.15-15.26.29:799][892]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-15.26.29:930][892]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.26.29:931][892]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.15-15.26.29:931][892]LogPlayLevel: [PlayLevel] Compiling SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint before play...
+[2017.06.15-15.26.30:093][892]LogPlayLevel: PlayLevel: Blueprint regeneration took 162 ms (1 blueprints)
+[2017.06.15-15.26.30:116][892]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 16, 2017, 7:26:30 AM)
+[2017.06.15-15.26.30:117][892]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.15-15.26.30:166][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049615s)
+[2017.06.15-15.26.30:168][892]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.15-15.26.30:169][892]LogPlayLevel: PIE: World Init took: (0.002078s)
+[2017.06.15-15.26.30:169][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.052368s)
+[2017.06.15-15.26.30:194][892]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.15-15.26.30:206][892]LogInit: FAudioDevice initialized.
+[2017.06.15-15.26.30:266][892]LogLoad: Game class is 'BattleGameMode'
+[2017.06.15-15.26.30:269][892]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.15-23.26.30
+[2017.06.15-15.26.30:302][892]LogWorld: Bringing up level for play took: 0.035079
+[2017.06.15-15.26.30:398][892]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 11 classes and 0 folders.
+[2017.06.15-15.26.30:410][892]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.304
+[2017.06.15-15.26.30:410][892]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.26.34:376][341]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.26.34:433][341]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.26.53:872][612]BlueprintLog: New page: Compile EnemyController_BP
+[2017.06.15-15.26.54:409][648]LogSavePackage: Save=7.89ms
+[2017.06.15-15.26.54:409][648]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyController_BP56D06ECF4CEF848049D751B04BBE7DBD.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset'
+[2017.06.15-15.26.54:411][648]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset
+[2017.06.15-15.27.07:558][210]BlueprintLog: New page: Compile EnemyBP
+[2017.06.15-15.27.08:703][264]LogSavePackage: Save=37.45ms
+[2017.06.15-15.27.08:703][264]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyBPF24B4D194EDC32F5CD4B08987521C197.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset'
+[2017.06.15-15.27.08:705][264]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset
+[2017.06.15-15.27.12:188][677]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.15-15.27.18:946][485]BlueprintLog: New page: Compile EnemyBP
+[2017.06.15-15.27.19:557][534]LogSavePackage: Save=25.66ms
+[2017.06.15-15.27.19:557][534]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyBPBC687C8343A1614AB38C43BDE1AFC92E.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset'
+[2017.06.15-15.27.19:559][534]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset
+[2017.06.15-15.27.42:499][190]BlueprintLog: New page: Compile EnemyController_BP
+[2017.06.15-15.27.42:709][190]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'UpdatedActors'. Node:  On Perception Updated (AIPerception)
+[2017.06.15-15.27.42:985][214]LogSavePackage: Save=13.31ms
+[2017.06.15-15.27.42:985][214]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyController_BP8481C4AE4252D9FBF0B7038C63D13401.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset'
+[2017.06.15-15.27.42:987][214]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset
+[2017.06.15-15.27.45:266][466]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-15.27.45:283][466]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.27.45:284][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-15.27.45:284][466]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 16, 2017, 7:27:45 AM)
+[2017.06.15-15.27.45:284][466]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.15-15.27.45:303][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019301s)
+[2017.06.15-15.27.45:305][466]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.15-15.27.45:305][466]LogPlayLevel: PIE: World Init took: (0.001576s)
+[2017.06.15-15.27.45:306][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021636s)
+[2017.06.15-15.27.45:331][466]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.15-15.27.45:342][466]LogInit: FAudioDevice initialized.
+[2017.06.15-15.27.45:383][466]LogLoad: Game class is 'BattleGameMode'
+[2017.06.15-15.27.45:386][466]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.15-23.27.45
+[2017.06.15-15.27.45:387][466]LogWorld: Bringing up level for play took: 0.001976
+[2017.06.15-15.27.45:389][466]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.676
+[2017.06.15-15.27.45:389][466]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.27.48:583][842]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.27.48:624][842]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.28.14:770][866]BlueprintLog: New page: Compile EnemyController_BP
+[2017.06.15-15.28.15:228][900]LogSavePackage: Save=16.30ms
+[2017.06.15-15.28.15:228][900]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyController_BPC0FA676441F9BC8695B2CD8E945F35ED.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset'
+[2017.06.15-15.28.15:231][900]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset
+[2017.06.15-15.28.16:228][  9]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-15.28.16:245][  9]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.28.16:246][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-15.28.16:246][  9]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 16, 2017, 7:28:16 AM)
+[2017.06.15-15.28.16:246][  9]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.15-15.28.16:266][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020027s)
+[2017.06.15-15.28.16:268][  9]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.15-15.28.16:268][  9]LogPlayLevel: PIE: World Init took: (0.001403s)
+[2017.06.15-15.28.16:269][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022483s)
+[2017.06.15-15.28.16:295][  9]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.15-15.28.16:307][  9]LogInit: FAudioDevice initialized.
+[2017.06.15-15.28.16:341][  9]LogLoad: Game class is 'BattleGameMode'
+[2017.06.15-15.28.16:344][  9]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.15-23.28.16
+[2017.06.15-15.28.16:345][  9]LogWorld: Bringing up level for play took: 0.001835
+[2017.06.15-15.28.16:346][  9]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.367
+[2017.06.15-15.28.16:347][  9]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.28.20:047][448]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.28.20:088][448]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.28.20:945][541]LogEditorViewport: Clicking on Actor (LMB): EnemyBP_C (EnemyBP)
+[2017.06.15-15.28.44:570][297]BlueprintLog: New page: Compile EnemyController_BP
+[2017.06.15-15.28.45:050][332]LogSavePackage: Save=16.59ms
+[2017.06.15-15.28.45:050][332]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyController_BP545E62A541CC67C2A6BA6A8E44378AE0.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset'
+[2017.06.15-15.28.45:052][332]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset
+[2017.06.15-15.28.46:120][455]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-15.28.46:138][455]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.28.46:138][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-15.28.46:138][455]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 16, 2017, 7:28:46 AM)
+[2017.06.15-15.28.46:138][455]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.15-15.28.46:165][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026924s)
+[2017.06.15-15.28.46:167][455]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.15-15.28.46:167][455]LogPlayLevel: PIE: World Init took: (0.001116s)
+[2017.06.15-15.28.46:167][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.028856s)
+[2017.06.15-15.28.46:198][455]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.15-15.28.46:209][455]LogInit: FAudioDevice initialized.
+[2017.06.15-15.28.46:246][455]LogLoad: Game class is 'BattleGameMode'
+[2017.06.15-15.28.46:249][455]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.15-23.28.46
+[2017.06.15-15.28.46:249][455]LogWorld: Bringing up level for play took: 0.002208
+[2017.06.15-15.28.46:251][455]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.462
+[2017.06.15-15.28.46:252][455]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.28.46:270][455]LogBlueprintUserMessages: [EnemyController_BP_C_0] ThirdPersonCharacter
+[2017.06.15-15.28.55:697][581]LogBlueprintUserMessages: [EnemyController_BP_C_0] ThirdPersonCharacter
+[2017.06.15-15.28.57:789][832]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.28.58:086][832]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.29.04:293][508]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-15.29.04:310][508]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.29.04:310][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-15.29.04:311][508]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 16, 2017, 7:29:04 AM)
+[2017.06.15-15.29.04:311][508]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.15-15.29.04:330][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019082s)
+[2017.06.15-15.29.04:331][508]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.15-15.29.04:332][508]LogPlayLevel: PIE: World Init took: (0.001597s)
+[2017.06.15-15.29.04:332][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021405s)
+[2017.06.15-15.29.04:358][508]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.15-15.29.04:368][508]LogInit: FAudioDevice initialized.
+[2017.06.15-15.29.04:407][508]LogLoad: Game class is 'BattleGameMode'
+[2017.06.15-15.29.04:410][508]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.15-23.29.04
+[2017.06.15-15.29.04:411][508]LogWorld: Bringing up level for play took: 0.002045
+[2017.06.15-15.29.04:413][508]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.301
+[2017.06.15-15.29.04:414][508]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.29.05:657][651]LogBlueprintUserMessages: [EnemyController_BP_C_0] ThirdPersonCharacter
+[2017.06.15-15.29.06:874][797]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.29.07:165][797]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.29.36:545][875]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-15.29.36:563][875]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.29.36:564][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-15.29.36:564][875]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 16, 2017, 7:29:36 AM)
+[2017.06.15-15.29.36:564][875]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.15-15.29.36:584][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019945s)
+[2017.06.15-15.29.36:585][875]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.15-15.29.36:586][875]LogPlayLevel: PIE: World Init took: (0.001428s)
+[2017.06.15-15.29.36:586][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022008s)
+[2017.06.15-15.29.36:613][875]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.15-15.29.36:624][875]LogInit: FAudioDevice initialized.
+[2017.06.15-15.29.36:659][875]LogLoad: Game class is 'BattleGameMode'
+[2017.06.15-15.29.36:662][875]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.15-23.29.36
+[2017.06.15-15.29.36:663][875]LogWorld: Bringing up level for play took: 0.002107
+[2017.06.15-15.29.36:665][875]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.049
+[2017.06.15-15.29.36:665][875]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.29.36:668][875]LogBlueprintUserMessages: [EnemyController_BP_C_0] ThirdPersonCharacter
+[2017.06.15-15.29.41:265][421]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.29.41:553][421]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.29.42:919][556]LogEditorViewport: Clicking on Actor (LMB): EnemyBP_C (EnemyBP)
+[2017.06.15-15.30.32:197][291]BlueprintLog: New page: Compile EnemyController_BP
+[2017.06.15-15.30.32:697][330]LogSavePackage: Save=19.34ms
+[2017.06.15-15.30.32:697][330]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyController_BPF265AE984F81FD284194329022F6AB49.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset'
+[2017.06.15-15.30.32:699][330]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset
+[2017.06.15-15.30.34:277][501]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-15.30.34:295][501]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.30.34:295][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-15.30.34:296][501]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 16, 2017, 7:30:34 AM)
+[2017.06.15-15.30.34:296][501]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.15-15.30.34:316][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020344s)
+[2017.06.15-15.30.34:317][501]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.15-15.30.34:318][501]LogPlayLevel: PIE: World Init took: (0.001137s)
+[2017.06.15-15.30.34:318][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022200s)
+[2017.06.15-15.30.34:345][501]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.15-15.30.34:355][501]LogInit: FAudioDevice initialized.
+[2017.06.15-15.30.34:390][501]LogLoad: Game class is 'BattleGameMode'
+[2017.06.15-15.30.34:394][501]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.15-23.30.34
+[2017.06.15-15.30.34:395][501]LogWorld: Bringing up level for play took: 0.002710
+[2017.06.15-15.30.34:397][501]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.317
+[2017.06.15-15.30.34:397][501]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.30.34:401][501]LogBlueprintUserMessages: [EnemyController_BP_C_0] I' true  ThirdPersonCharacter
+[2017.06.15-15.30.37:455][862]LogBlueprintUserMessages: [EnemyController_BP_C_0] I' false  ThirdPersonCharacter
+[2017.06.15-15.30.38:747][ 17]LogBlueprintUserMessages: [EnemyController_BP_C_0] I' true  ThirdPersonCharacter
+[2017.06.15-15.30.40:422][218]LogBlueprintUserMessages: [EnemyController_BP_C_0] I' false  ThirdPersonCharacter
+[2017.06.15-15.30.44:939][760]LogBlueprintUserMessages: [EnemyController_BP_C_0] I' true  ThirdPersonCharacter
+[2017.06.15-15.30.49:431][299]LogBlueprintUserMessages: [EnemyController_BP_C_0] I' false  ThirdPersonCharacter
+[2017.06.15-15.30.50:290][402]LogBlueprintUserMessages: [EnemyController_BP_C_0] I' true  ThirdPersonCharacter
+[2017.06.15-15.31.00:307][604]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.31.00:606][604]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.15-15.31.39:023][893]BlueprintLog: New page: Compile EnemyController_BP
+[2017.06.15-15.31.39:579][921]LogSavePackage: Save=35.25ms
+[2017.06.15-15.31.39:579][921]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyController_BP02115A7A4A5AAFF38251C0A3A3955F47.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset'
+[2017.06.15-15.31.39:581][921]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset
+[2017.06.15-15.32.19:523][546]BlueprintLog: New page: Compile EnemyController_BP
+[2017.06.15-15.32.20:061][587]LogSavePackage: Save=17.38ms
+[2017.06.15-15.32.20:061][587]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyController_BPB74B617B49DC896D4495C6B38FCD6B27.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset'
+[2017.06.15-15.32.20:063][587]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset
+[2017.06.15-15.32.50:835][204]LogSavePackage: Save=2.33ms
+[2017.06.15-15.32.50:835][204]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyTree3AD5346D4FE823F4E7E253AE281E89F2.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/EnemyTree.uasset'
+[2017.06.15-15.32.50:837][204]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/EnemyTree.uasset
+[2017.06.15-15.32.50:844][204]LogSavePackage: Save=2.13ms
+[2017.06.15-15.32.50:844][204]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyBlackBoard815116364F8BE112C0CA11BDDF19F7A6.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/EnemyBlackBoard.uasset'
+[2017.06.15-15.32.50:846][204]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/EnemyBlackBoard.uasset
+[2017.06.15-15.32.51:788][307]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.15-15.32.56:207][835]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.15-15.33.55:852][936]Running F:/UnrealEngine/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Battle Win64 Development -editorrecompile "G:/Git/VR_Battle/Battle/Battle.uproject" -invalidatemakefilesonly
+[2017.06.15-15.33.56:527][936]Invalidating makefiles only in this run.
+[2017.06.15-15.33.56:823][936]Candidate modules for hot reload:
+[2017.06.15-15.33.56:823][936]  Battle
+[2017.06.15-15.33.56:823][936]Launching UnrealBuildTool... [F:/UnrealEngine/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Battle -ModuleWithSuffix Battle 4827 Win64 Development -editorrecompile -canskiplink "G:/Git/VR_Battle/Battle/Battle.uproject" ]
+[2017.06.15-15.34.09:985][936]CompilerResultsLog: New page: Compilation - Jun 16, 2017, 7:34:09 AM
+[2017.06.15-15.34.09:986][936]CompilerResultsLog: Info Creating makefile for hot reloading Battle (no existing makefile)
+[2017.06.15-15.34.09:986][936]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.15-15.34.09:986][936]CompilerResultsLog: Info Parsing headers for BattleEditor
+[2017.06.15-15.34.09:986][936]CompilerResultsLog: Info   Running UnrealHeaderTool "G:\Git\VR_Battle\Battle\Battle.uproject" "G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\BattleEditor\Development\BattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.15-15.34.09:986][936]CompilerResultsLog: Info Reflection code generated for BattleEditor in 5.244161 seconds
+[2017.06.15-15.34.09:986][936]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2017.06.15-15.34.09:987][936]CompilerResultsLog: Info Battle.generated.cpp
+[2017.06.15-15.34.09:987][936]CompilerResultsLog: Info BaseStateComponent.cpp
+[2017.06.15-15.34.09:987][936]CompilerResultsLog: Info [3/4] Link UE4Editor-Battle-4827.dll
+[2017.06.15-15.34.09:987][936]CompilerResultsLog: Info [4/4] Link UE4Editor-Battle-4827.lib
+[2017.06.15-15.34.09:987][936]CompilerResultsLog: Info    ???b?إߵ{???w G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-4827.lib ?M???? G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-4827.exp
+[2017.06.15-15.34.09:987][936]CompilerResultsLog: Info    ???b?إߵ{???w G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-4827.suppressed.lib ?M???? G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-4827.suppressed.exp
+[2017.06.15-15.34.09:987][936]CompilerResultsLog: Info Total build time: 12.70 seconds (Local executor: 4.07 seconds)
+[2017.06.15-15.34.09:987][936]LogMainFrame: MainFrame: Module compiling took 13.170 seconds
+[2017.06.15-15.34.10:057][936]LogClass: Could not find existing class BaseStateComponent in package /Script/Battle for HotReload, assuming new class
+[2017.06.15-15.34.10:071][936]LogContentBrowser: Native class hierarchy updated for 'Battle' in 0.0012 seconds. Added 6 classes and 2 folders.
+[2017.06.15-15.34.10:074][936]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.15-15.34.10:328][936]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2338 classes and 499 folders.
+[2017.06.15-15.34.10:332][936]Display: HotReload took 13.7s.
+[2017.06.15-15.34.10:333][936]Warning: HotReload operation took 13.7s.
+[2017.06.15-15.34.10:433][936]LogVSAccessor:Warning: Couldn't goto line number '0' in 'G:/Git/VR_Battle/Battle/Source/Battle/BaseStateComponent.h'
+[2017.06.15-15.34.10:770][936]LogVSAccessor:Warning: Couldn't goto line number '0' in 'G:/Git/VR_Battle/Battle/Source/Battle/BaseStateComponent.cpp'
+[2017.06.15-15.34.10:958][937]LogHotReload: New module detected: UE4Editor-Battle-4827.dll
+[2017.06.15-15.34.11:190][937]LogSavePackage: Save=143.61ms
+[2017.06.15-15.34.11:190][937]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/ThirdPersonExampleMap_Auto2B7977942497E9B4307B6EF830CAE2328.tmp' to 'G:/Git/VR_Battle/Battle/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2017.06.15-15.34.11:191][937]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2017.06.15-15.34.11:194][937]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.205
+[2017.06.15-15.34.11:194][937]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.205
+[2017.06.15-15.34.11:214][938]LogHotReload: Starting Hot-Reload from IDE
+[2017.06.15-15.34.11:286][938]LogContentBrowser: Native class hierarchy updated for 'Battle' in 0.0013 seconds. Added 6 classes and 2 folders.
+[2017.06.15-15.34.11:290][938]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.15-15.34.11:536][938]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 2338 classes and 499 folders.
+[2017.06.15-15.34.11:544][938]Display: HotReload took  0.3s.
+[2017.06.15-16.00.14:048][  8]Candidate modules for hot reload:
+[2017.06.15-16.00.14:048][  8]  Battle
+[2017.06.15-16.00.14:049][  8]Launching UnrealBuildTool... [F:/UnrealEngine/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Battle -ModuleWithSuffix Battle 7420 Win64 Development -editorrecompile -canskiplink "G:/Git/VR_Battle/Battle/Battle.uproject" ]
+[2017.06.15-16.00.14:225][  8]Warning: Starting HotReload took  0.2s.
+[2017.06.15-16.00.21:019][ 99]CompilerResultsLog: New page: Compilation - Jun 16, 2017, 8:00:21 AM
+[2017.06.15-16.00.21:020][ 99]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.15-16.00.21:020][ 99]CompilerResultsLog: Info Parsing headers for BattleEditor
+[2017.06.15-16.00.21:020][ 99]CompilerResultsLog: Info   Running UnrealHeaderTool "G:\Git\VR_Battle\Battle\Battle.uproject" "G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\BattleEditor\Development\BattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.15-16.00.21:020][ 99]CompilerResultsLog:Error: Error G:/Git/VR_Battle/Battle/Source/Battle/BaseStateComponent.h(31)  : Error: Unknown variable specifier 'BlueprubtReadWrite'
+[2017.06.15-16.00.21:020][ 99]CompilerResultsLog: Info UnrealHeaderTool failed for target 'BattleEditor' (platform: Win64, module info: G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\BattleEditor\Development\BattleEditor.uhtmanifest).
+[2017.06.15-16.00.21:020][ 99]LogMainFrame: MainFrame: Module compiling took 6.977 seconds
+[2017.06.15-16.00.21:020][ 99]Warning: HotReload failed, recompile failed
+[2017.06.15-16.00.44:865][439]Candidate modules for hot reload:
+[2017.06.15-16.00.44:865][439]  Battle
+[2017.06.15-16.00.44:865][439]Launching UnrealBuildTool... [F:/UnrealEngine/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Battle -ModuleWithSuffix Battle 3723 Win64 Development -editorrecompile -canskiplink "G:/Git/VR_Battle/Battle/Battle.uproject" ]
+[2017.06.15-16.00.45:423][439]Warning: Starting HotReload took  0.6s.
+[2017.06.15-16.00.54:514][316]CompilerResultsLog: New page: Compilation - Jun 16, 2017, 8:00:54 AM
+[2017.06.15-16.00.54:514][316]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.15-16.00.54:514][316]CompilerResultsLog: Info Parsing headers for BattleEditor
+[2017.06.15-16.00.54:514][316]CompilerResultsLog: Info   Running UnrealHeaderTool "G:\Git\VR_Battle\Battle\Battle.uproject" "G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\BattleEditor\Development\BattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.15-16.00.54:514][316]CompilerResultsLog:Error: Error G:/Git/VR_Battle/Battle/Source/Battle/BaseStateComponent.h(35)  : Error: Unknown variable specifier 'BlueprubtReadWrite'
+[2017.06.15-16.00.54:515][316]CompilerResultsLog: Info UnrealHeaderTool failed for target 'BattleEditor' (platform: Win64, module info: G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\BattleEditor\Development\BattleEditor.uhtmanifest).
+[2017.06.15-16.00.54:515][316]LogMainFrame: MainFrame: Module compiling took 9.655 seconds
+[2017.06.15-16.00.54:515][316]Warning: HotReload failed, recompile failed
+[2017.06.15-16.01.10:598][739]Candidate modules for hot reload:
+[2017.06.15-16.01.10:599][739]  Battle
+[2017.06.15-16.01.10:599][739]Launching UnrealBuildTool... [F:/UnrealEngine/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Battle -ModuleWithSuffix Battle 2901 Win64 Development -editorrecompile -canskiplink "G:/Git/VR_Battle/Battle/Battle.uproject" ]
+[2017.06.15-16.01.10:780][739]Warning: Starting HotReload took  0.2s.
+[2017.06.15-16.01.21:786][878]CompilerResultsLog: New page: Compilation - Jun 16, 2017, 8:01:21 AM
+[2017.06.15-16.01.21:787][878]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.15-16.01.21:787][878]CompilerResultsLog: Info Parsing headers for BattleEditor
+[2017.06.15-16.01.21:787][878]CompilerResultsLog: Info   Running UnrealHeaderTool "G:\Git\VR_Battle\Battle\Battle.uproject" "G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\BattleEditor\Development\BattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.15-16.01.21:787][878]CompilerResultsLog: Info Reflection code generated for BattleEditor in 5.8906694 seconds
+[2017.06.15-16.01.21:788][878]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2017.06.15-16.01.21:788][878]CompilerResultsLog: Info Battle.generated.cpp
+[2017.06.15-16.01.21:788][878]CompilerResultsLog: Info BaseStateComponent.cpp
+[2017.06.15-16.01.21:788][878]CompilerResultsLog:Error: Error G:\Git\VR_Battle\Battle\Source\Battle\BaseStateComponent.h(29) : warning C4263: 'void UBaseStateComponent::PostEditChangeProperty(FPropertyChangedChainEvent &)': ?????禡???мg???????????O???????????禡
+[2017.06.15-16.01.21:788][878]CompilerResultsLog:Error: Error G:\Git\VR_Battle\Battle\Source\Battle\BaseStateComponent.h(57) : warning C4264: 'void UActorComponent::PostEditChangeProperty(FPropertyChangedEvent &)': ???????O 'UActorComponent' ???????????禡?S???мg; ?禡?w?Q????
+[2017.06.15-16.01.21:788][878]CompilerResultsLog:Error: Error F:\UnrealEngine\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Components/ActorComponent.h(762) : note: ?аѾ\ 'UActorComponent::PostEditChangeProperty' ???ŧi
+[2017.06.15-16.01.21:788][878]CompilerResultsLog:Error: Error F:\UnrealEngine\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Engine/BlueprintGeneratedClass.h(16) : note: ?аѾ\ 'UActorComponent' ???ŧi
+[2017.06.15-16.01.21:788][878]CompilerResultsLog:Error: Error g:\git\vr_battle\battle\source\battle\BaseStateComponent.h(29) : warning C4263: 'void UBaseStateComponent::PostEditChangeProperty(FPropertyChangedChainEvent &)': ?????禡???мg???????????O???????????禡
+[2017.06.15-16.01.21:788][878]CompilerResultsLog:Error: Error g:\git\vr_battle\battle\source\battle\BaseStateComponent.h(57) : warning C4264: 'void UActorComponent::PostEditChangeProperty(FPropertyChangedEvent &)': ???????O 'UActorComponent' ???????????禡?S???мg; ?禡?w?Q????
+[2017.06.15-16.01.21:789][878]CompilerResultsLog:Error: Error F:\UnrealEngine\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Components/ActorComponent.h(762) : note: ?аѾ\ 'UActorComponent::PostEditChangeProperty' ???ŧi
+[2017.06.15-16.01.21:789][878]CompilerResultsLog:Error: Error F:\UnrealEngine\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Engine/BlueprintGeneratedClass.h(16) : note: ?аѾ\ 'UActorComponent' ???ŧi
+[2017.06.15-16.01.21:789][878]CompilerResultsLog: Info [3/4] Link UE4Editor-Battle-2901.dll
+[2017.06.15-16.01.21:789][878]CompilerResultsLog: Info [4/4] Link UE4Editor-Battle-2901.lib
+[2017.06.15-16.01.21:789][878]CompilerResultsLog: Info    ???b?إߵ{???w G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-2901.lib ?M???? G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-2901.exp
+[2017.06.15-16.01.21:789][878]CompilerResultsLog: Info    ???b?إߵ{???w G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-2901.suppressed.lib ?M???? G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-2901.suppressed.exp
+[2017.06.15-16.01.21:789][878]CompilerResultsLog: Info Total build time: 10.59 seconds (Local executor: 4.10 seconds)
+[2017.06.15-16.01.21:789][878]LogMainFrame: MainFrame: Module compiling took 11.197 seconds
+[2017.06.15-16.01.21:892][878]LogClass: Could not find existing class BaseStateComponent in package /Script/Battle for HotReload, assuming new class
+[2017.06.15-16.01.21:908][878]LogHotReload: Re-instancing BaseStateComponent after hot-reload.
+[2017.06.15-16.01.22:029][878]LogContentBrowser: Native class hierarchy updated for 'Battle' in 0.0020 seconds. Added 6 classes and 2 folders.
+[2017.06.15-16.01.22:033][878]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.15-16.01.22:310][878]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2338 classes and 499 folders.
+[2017.06.15-16.01.22:316][878]Display: HotReload took 11.7s.
+[2017.06.15-16.34.29:553][912]Candidate modules for hot reload:
+[2017.06.15-16.34.29:553][912]  Battle
+[2017.06.15-16.34.29:553][912]Launching UnrealBuildTool... [F:/UnrealEngine/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Battle -ModuleWithSuffix Battle 9250 Win64 Development -editorrecompile -canskiplink "G:/Git/VR_Battle/Battle/Battle.uproject" ]
+[2017.06.15-16.34.29:704][912]Warning: Starting HotReload took  0.2s.
+[2017.06.15-16.34.41:917][310]CompilerResultsLog: New page: Compilation - Jun 16, 2017, 8:34:41 AM
+[2017.06.15-16.34.41:918][310]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.15-16.34.41:918][310]CompilerResultsLog: Info Parsing headers for BattleEditor
+[2017.06.15-16.34.41:918][310]CompilerResultsLog: Info   Running UnrealHeaderTool "G:\Git\VR_Battle\Battle\Battle.uproject" "G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\BattleEditor\Development\BattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.15-16.34.41:918][310]CompilerResultsLog: Info Reflection code generated for BattleEditor in 6.9172483 seconds
+[2017.06.15-16.34.41:919][310]CompilerResultsLog: Info Performing 5 actions (4 in parallel)
+[2017.06.15-16.34.41:919][310]CompilerResultsLog: Info Enemy.cpp
+[2017.06.15-16.34.41:919][310]CompilerResultsLog: Info Battle.generated.cpp
+[2017.06.15-16.34.41:919][310]CompilerResultsLog:Error: Error g:\git\vr_battle\battle\source\battle\BaseStateComponent.h(29) : warning C4263: 'void UBaseStateComponent::PostEditChangeProperty(FPropertyChangedChainEvent &)': ?????禡???мg???????????O???????????禡
+[2017.06.15-16.34.41:919][310]CompilerResultsLog:Error: Error g:\git\vr_battle\battle\source\battle\BaseStateComponent.h(62) : warning C4264: 'void UActorComponent::PostEditChangeProperty(FPropertyChangedEvent &)': ???????O 'UActorComponent' ???????????禡?S???мg; ?禡?w?Q????
+[2017.06.15-16.34.41:919][310]CompilerResultsLog:Error: Error F:\UnrealEngine\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Components/ActorComponent.h(762) : note: ?аѾ\ 'UActorComponent::PostEditChangeProperty' ???ŧi
+[2017.06.15-16.34.41:919][310]CompilerResultsLog:Error: Error F:\UnrealEngine\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Engine/BlueprintGeneratedClass.h(16) : note: ?аѾ\ 'UActorComponent' ???ŧi
+[2017.06.15-16.34.41:919][310]CompilerResultsLog: Info BaseStateComponent.cpp
+[2017.06.15-16.34.41:919][310]CompilerResultsLog:Error: Error g:\git\vr_battle\battle\source\battle\BaseStateComponent.h(29) : warning C4263: 'void UBaseStateComponent::PostEditChangeProperty(FPropertyChangedChainEvent &)': ?????禡???мg???????????O???????????禡
+[2017.06.15-16.34.41:919][310]CompilerResultsLog:Error: Error g:\git\vr_battle\battle\source\battle\BaseStateComponent.h(62) : warning C4264: 'void UActorComponent::PostEditChangeProperty(FPropertyChangedEvent &)': ???????O 'UActorComponent' ???????????禡?S???мg; ?禡?w?Q????
+[2017.06.15-16.34.41:919][310]CompilerResultsLog:Error: Error F:\UnrealEngine\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Components/ActorComponent.h(762) : note: ?аѾ\ 'UActorComponent::PostEditChangeProperty' ???ŧi
+[2017.06.15-16.34.41:919][310]CompilerResultsLog:Error: Error F:\UnrealEngine\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Engine/BlueprintGeneratedClass.h(16) : note: ?аѾ\ 'UActorComponent' ???ŧi
+[2017.06.15-16.34.41:920][310]CompilerResultsLog:Error: Error G:\Git\VR_Battle\Battle\Source\Battle\BaseStateComponent.h(29) : warning C4263: 'void UBaseStateComponent::PostEditChangeProperty(FPropertyChangedChainEvent &)': ?????禡???мg???????????O???????????禡
+[2017.06.15-16.34.41:920][310]CompilerResultsLog:Error: Error G:\Git\VR_Battle\Battle\Source\Battle\BaseStateComponent.h(62) : warning C4264: 'void UActorComponent::PostEditChangeProperty(FPropertyChangedEvent &)': ???????O 'UActorComponent' ???????????禡?S???мg; ?禡?w?Q????
+[2017.06.15-16.34.41:920][310]CompilerResultsLog:Error: Error F:\UnrealEngine\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Components/ActorComponent.h(762) : note: ?аѾ\ 'UActorComponent::PostEditChangeProperty' ???ŧi
+[2017.06.15-16.34.41:920][310]CompilerResultsLog:Error: Error F:\UnrealEngine\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Engine/BlueprintGeneratedClass.h(16) : note: ?аѾ\ 'UActorComponent' ???ŧi
+[2017.06.15-16.34.41:920][310]CompilerResultsLog: Info [4/5] Link UE4Editor-Battle-9250.dll
+[2017.06.15-16.34.41:920][310]CompilerResultsLog: Info [5/5] Link UE4Editor-Battle-9250.lib
+[2017.06.15-16.34.41:920][310]CompilerResultsLog: Info    ???b?إߵ{???w G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-9250.suppressed.lib ?M???? G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-9250.suppressed.exp
+[2017.06.15-16.34.41:920][310]CompilerResultsLog: Info    ???b?إߵ{???w G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-9250.lib ?M???? G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-9250.exp
+[2017.06.15-16.34.41:920][310]CompilerResultsLog: Info Total build time: 11.93 seconds (Local executor: 4.51 seconds)
+[2017.06.15-16.34.41:920][310]LogMainFrame: MainFrame: Module compiling took 12.372 seconds
+[2017.06.15-16.34.42:058][310]LogClass: Could not find existing class BaseStateComponent in package /Script/Battle for HotReload, assuming new class
+[2017.06.15-16.34.42:058][310]LogClass: Function CaculaterDamage is new.
+[2017.06.15-16.34.42:058][310]LogClass: Function CusorDamage is new.
+[2017.06.15-16.34.42:063][310]LogClass: Could not find existing class Enemy in package /Script/Battle for HotReload, assuming new class
+[2017.06.15-16.34.42:072][310]LogHotReload: Re-instancing BaseStateComponent after hot-reload.
+[2017.06.15-16.34.42:198][310]LogHotReload: Re-instancing Enemy after hot-reload.
+[2017.06.15-16.34.43:709][310]LogContentBrowser: Native class hierarchy updated for 'Battle' in 0.0012 seconds. Added 6 classes and 2 folders.
+[2017.06.15-16.34.43:714][310]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.15-16.34.43:972][310]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2338 classes and 499 folders.
+[2017.06.15-16.34.43:976][310]Display: HotReload took 14.5s.
+[2017.06.15-16.37.25:064][235]Candidate modules for hot reload:
+[2017.06.15-16.37.25:064][235]  Battle
+[2017.06.15-16.37.25:064][235]Launching UnrealBuildTool... [F:/UnrealEngine/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Battle -ModuleWithSuffix Battle 953 Win64 Development -editorrecompile -canskiplink "G:/Git/VR_Battle/Battle/Battle.uproject" ]
+[2017.06.15-16.37.25:219][235]Warning: Starting HotReload took  0.2s.
+[2017.06.15-16.37.27:175][443]CompilerResultsLog: New page: Compilation - Jun 16, 2017, 8:37:27 AM
+[2017.06.15-16.37.27:175][443]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.15-16.37.27:175][443]CompilerResultsLog: Info Parsing headers for BattleEditor
+[2017.06.15-16.37.27:175][443]CompilerResultsLog: Info   Running UnrealHeaderTool "G:\Git\VR_Battle\Battle\Battle.uproject" "G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\BattleEditor\Development\BattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.15-16.37.27:175][443]LogMainFrame: MainFrame: Module compiling took 2.117 seconds
+[2017.06.15-16.37.27:176][443]Warning: HotReload failed, recompile failed
+[2017.06.15-16.37.31:017][646]Candidate modules for hot reload:
+[2017.06.15-16.37.31:017][646]  Battle
+[2017.06.15-16.37.31:018][646]Launching UnrealBuildTool... [F:/UnrealEngine/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Battle -ModuleWithSuffix Battle 8316 Win64 Development -editorrecompile -canskiplink "G:/Git/VR_Battle/Battle/Battle.uproject" ]
+[2017.06.15-16.37.31:165][646]Warning: Starting HotReload took  0.2s.
+[2017.06.15-16.37.42:258][270]CompilerResultsLog: New page: Compilation - Jun 16, 2017, 8:37:42 AM
+[2017.06.15-16.37.42:260][270]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.15-16.37.42:260][270]CompilerResultsLog: Info Performing full C++ include scan (no include cache file)
+[2017.06.15-16.37.42:260][270]CompilerResultsLog: Info Parsing headers for BattleEditor
+[2017.06.15-16.37.42:260][270]CompilerResultsLog: Info   Running UnrealHeaderTool "G:\Git\VR_Battle\Battle\Battle.uproject" "G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\BattleEditor\Development\BattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.15-16.37.42:260][270]CompilerResultsLog: Info Reflection code generated for BattleEditor in 6.3947586 seconds
+[2017.06.15-16.37.42:260][270]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2017.06.15-16.37.42:260][270]CompilerResultsLog: Info Battle.generated.cpp
+[2017.06.15-16.37.42:260][270]CompilerResultsLog: Info Enemy.cpp
+[2017.06.15-16.37.42:260][270]CompilerResultsLog:Error: Error G:\Git\VR_Battle\Battle\Source\Battle\BaseStateComponent.h(29) : warning C4263: 'void UBaseStateComponent::PostEditChangeProperty(FPropertyChangedChainEvent &)': ?????禡???мg???????????O???????????禡
+[2017.06.15-16.37.42:260][270]CompilerResultsLog:Error: Error G:\Git\VR_Battle\Battle\Source\Battle\BaseStateComponent.h(62) : warning C4264: 'void UActorComponent::PostEditChangeProperty(FPropertyChangedEvent &)': ???????O 'UActorComponent' ???????????禡?S???мg; ?禡?w?Q????
+[2017.06.15-16.37.42:260][270]CompilerResultsLog:Error: Error F:\UnrealEngine\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Components/ActorComponent.h(762) : note: ?аѾ\ 'UActorComponent::PostEditChangeProperty' ???ŧi
+[2017.06.15-16.37.42:261][270]CompilerResultsLog:Error: Error F:\UnrealEngine\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Engine/BlueprintGeneratedClass.h(16) : note: ?аѾ\ 'UActorComponent' ???ŧi
+[2017.06.15-16.37.42:261][270]CompilerResultsLog:Error: Error g:\git\vr_battle\battle\source\battle\BaseStateComponent.h(29) : warning C4263: 'void UBaseStateComponent::PostEditChangeProperty(FPropertyChangedChainEvent &)': ?????禡???мg???????????O???????????禡
+[2017.06.15-16.37.42:261][270]CompilerResultsLog:Error: Error g:\git\vr_battle\battle\source\battle\BaseStateComponent.h(62) : warning C4264: 'void UActorComponent::PostEditChangeProperty(FPropertyChangedEvent &)': ???????O 'UActorComponent' ???????????禡?S???мg; ?禡?w?Q????
+[2017.06.15-16.37.42:261][270]CompilerResultsLog:Error: Error F:\UnrealEngine\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Components/ActorComponent.h(762) : note: ?аѾ\ 'UActorComponent::PostEditChangeProperty' ???ŧi
+[2017.06.15-16.37.42:261][270]CompilerResultsLog:Error: Error F:\UnrealEngine\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Engine/BlueprintGeneratedClass.h(16) : note: ?аѾ\ 'UActorComponent' ???ŧi
+[2017.06.15-16.37.42:261][270]CompilerResultsLog: Info [3/4] Link UE4Editor-Battle-8316.dll
+[2017.06.15-16.37.42:261][270]CompilerResultsLog: Info [4/4] Link UE4Editor-Battle-8316.lib
+[2017.06.15-16.37.42:261][270]CompilerResultsLog: Info    ???b?إߵ{???w G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-8316.suppressed.lib ?M???? G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-8316.suppressed.exp
+[2017.06.15-16.37.42:261][270]CompilerResultsLog: Info    ???b?إߵ{???w G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-8316.lib ?M???? G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-8316.exp
+[2017.06.15-16.37.42:261][270]CompilerResultsLog: Info Total build time: 10.47 seconds (Local executor: 3.10 seconds)
+[2017.06.15-16.37.42:261][270]LogMainFrame: MainFrame: Module compiling took 11.248 seconds
+[2017.06.15-16.37.42:422][270]LogContentBrowser: Native class hierarchy updated for 'Battle' in 0.0012 seconds. Added 6 classes and 2 folders.
+[2017.06.15-16.37.42:426][270]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2017.06.15-16.37.42:689][270]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2338 classes and 499 folders.
+[2017.06.15-16.37.42:693][270]Display: HotReload took 11.7s.
+[2017.06.15-16.42.06:206][140]Candidate modules for hot reload:
+[2017.06.15-16.42.06:206][140]  Battle
+[2017.06.15-16.42.06:207][140]Launching UnrealBuildTool... [F:/UnrealEngine/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Battle -ModuleWithSuffix Battle 8895 Win64 Development -editorrecompile -canskiplink "G:/Git/VR_Battle/Battle/Battle.uproject" ]
+[2017.06.15-16.42.06:383][140]Warning: Starting HotReload took  0.2s.
+[2017.06.15-16.42.16:582][254]CompilerResultsLog: New page: Compilation - Jun 16, 2017, 8:42:16 AM
+[2017.06.15-16.42.16:584][254]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.15-16.42.16:584][254]CompilerResultsLog: Info Parsing headers for BattleEditor
+[2017.06.15-16.42.16:584][254]CompilerResultsLog: Info   Running UnrealHeaderTool "G:\Git\VR_Battle\Battle\Battle.uproject" "G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\BattleEditor\Development\BattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.15-16.42.16:584][254]CompilerResultsLog: Info Reflection code generated for BattleEditor in 6.0139087 seconds
+[2017.06.15-16.42.16:584][254]CompilerResultsLog: Info Performing 5 actions (4 in parallel)
+[2017.06.15-16.42.16:584][254]CompilerResultsLog: Info Battle.generated.cpp
+[2017.06.15-16.42.16:584][254]CompilerResultsLog: Info VR_Character.cpp
+[2017.06.15-16.42.16:585][254]CompilerResultsLog:Error: Error g:\git\vr_battle\battle\source\battle\BaseStateComponent.h(29) : warning C4263: 'void UBaseStateComponent::PostEditChangeProperty(FPropertyChangedChainEvent &)': ?????禡???мg???????????O???????????禡
+[2017.06.15-16.42.16:585][254]CompilerResultsLog:Error: Error g:\git\vr_battle\battle\source\battle\BaseStateComponent.h(62) : warning C4264: 'void UActorComponent::PostEditChangeProperty(FPropertyChangedEvent &)': ???????O 'UActorComponent' ???????????禡?S???мg; ?禡?w?Q????
+[2017.06.15-16.42.16:585][254]CompilerResultsLog:Error: Error F:\UnrealEngine\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Components/ActorComponent.h(762) : note: ?аѾ\ 'UActorComponent::PostEditChangeProperty' ???ŧi
+[2017.06.15-16.42.16:585][254]CompilerResultsLog:Error: Error F:\UnrealEngine\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Engine/BlueprintGeneratedClass.h(16) : note: ?аѾ\ 'UActorComponent' ???ŧi
+[2017.06.15-16.42.16:585][254]CompilerResultsLog: Info Enemy.cpp
+[2017.06.15-16.42.16:585][254]CompilerResultsLog:Error: Error G:\Git\VR_Battle\Battle\Source\Battle\BaseStateComponent.h(29) : warning C4263: 'void UBaseStateComponent::PostEditChangeProperty(FPropertyChangedChainEvent &)': ?????禡???мg???????????O???????????禡
+[2017.06.15-16.42.16:585][254]CompilerResultsLog:Error: Error G:\Git\VR_Battle\Battle\Source\Battle\BaseStateComponent.h(62) : warning C4264: 'void UActorComponent::PostEditChangeProperty(FPropertyChangedEvent &)': ???????O 'UActorComponent' ???????????禡?S???мg; ?禡?w?Q????
+[2017.06.15-16.42.16:585][254]CompilerResultsLog:Error: Error F:\UnrealEngine\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Components/ActorComponent.h(762) : note: ?аѾ\ 'UActorComponent::PostEditChangeProperty' ???ŧi
+[2017.06.15-16.42.16:585][254]CompilerResultsLog:Error: Error F:\UnrealEngine\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Engine/BlueprintGeneratedClass.h(16) : note: ?аѾ\ 'UActorComponent' ???ŧi
+[2017.06.15-16.42.16:585][254]CompilerResultsLog:Error: Error g:\git\vr_battle\battle\source\battle\BaseStateComponent.h(29) : warning C4263: 'void UBaseStateComponent::PostEditChangeProperty(FPropertyChangedChainEvent &)': ?????禡???мg???????????O???????????禡
+[2017.06.15-16.42.16:585][254]CompilerResultsLog:Error: Error g:\git\vr_battle\battle\source\battle\BaseStateComponent.h(62) : warning C4264: 'void UActorComponent::PostEditChangeProperty(FPropertyChangedEvent &)': ???????O 'UActorComponent' ???????????禡?S???мg; ?禡?w?Q????
+[2017.06.15-16.42.16:585][254]CompilerResultsLog:Error: Error F:\UnrealEngine\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Components/ActorComponent.h(762) : note: ?аѾ\ 'UActorComponent::PostEditChangeProperty' ???ŧi
+[2017.06.15-16.42.16:585][254]CompilerResultsLog:Error: Error F:\UnrealEngine\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Engine/BlueprintGeneratedClass.h(16) : note: ?аѾ\ 'UActorComponent' ???ŧi
+[2017.06.15-16.42.16:586][254]CompilerResultsLog: Info [4/5] Link UE4Editor-Battle-8895.dll
+[2017.06.15-16.42.16:586][254]CompilerResultsLog: Info [5/5] Link UE4Editor-Battle-8895.lib
+[2017.06.15-16.42.16:586][254]CompilerResultsLog: Info    ???b?إߵ{???w G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-8895.suppressed.lib ?M???? G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-8895.suppressed.exp
+[2017.06.15-16.42.16:586][254]CompilerResultsLog: Info    ???b?إߵ{???w G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-8895.lib ?M???? G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle-8895.exp
+[2017.06.15-16.42.16:586][254]CompilerResultsLog: Info Total build time: 9.81 seconds (Local executor: 3.30 seconds)
+[2017.06.15-16.42.16:586][254]LogMainFrame: MainFrame: Module compiling took 10.384 seconds
+[2017.06.15-16.42.16:705][254]LogClass: Could not find existing class VR_Character in package /Script/Battle for HotReload, assuming new class
+[2017.06.15-16.42.16:709][254]LogHotReload: Re-instancing Enemy after hot-reload.

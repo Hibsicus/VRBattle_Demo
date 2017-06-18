@@ -1,0 +1,1090 @@
+﻿Log file open, 06/18/17 02:00:27
+LogInit:Display: Running engine for game: Battle
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1198700209) SRandInit(1198700209).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.170236
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  -skipcompile
+LogInit: Base directory: F:/UnrealEngine/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.17-18.00.28:139][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.17-18.00.28:139][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.17-18.00.28:147][  0]LogInit: Computer: WINDOWS-ACBHQ9K
+[2017.06.17-18.00.28:147][  0]LogInit: User: User
+[2017.06.17-18.00.28:147][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.17-18.00.28:147][  0]LogInit: High frequency timer resolution =3.328127 MHz
+[2017.06.17-18.00.28:147][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.06.17-18.00.28:147][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.17-18.00.28:147][  0]LogMemory: Process Physical Memory: 274.64 MB used, 274.64 MB peak
+[2017.06.17-18.00.28:147][  0]LogMemory: Process Virtual Memory: 260.91 MB used, 260.91 MB peak
+[2017.06.17-18.00.28:148][  0]LogMemory: Physical Memory: 6218.96 MB used,  10075.47 MB free, 16294.43 MB total
+[2017.06.17-18.00.28:148][  0]LogMemory: Virtual Memory: 635.29 MB used,  10075.47 MB free, 134217728.00 MB total
+[2017.06.17-18.00.28:332][  0]LogInit: Using OS detected language (zh-TW).
+[2017.06.17-18.00.28:332][  0]LogInit: Using OS detected locale (zh-TW).
+[2017.06.17-18.00.28:335][  0]LogTextLocalizationManager: No localization for 'zh-TW' exists, so 'en' will be used for the language.
+[2017.06.17-18.00.28:336][  0]LogTextLocalizationManager: No localization for 'zh-TW' exists, so 'en' will be used for the locale.
+[2017.06.17-18.00.29:308][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.17-18.00.29:867][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.06.17-18.00.29:867][  0]LogD3D11RHI:       8145/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.17-18.00.29:877][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.17-18.00.29:877][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.17-18.00.29:877][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.17-18.00.29:884][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.17-18.00.29:885][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.17-18.00.29:885][  0]LogWindows: EnumDisplayDevices:
+[2017.06.17-18.00.29:885][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.06.17-18.00.29:885][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.06.17-18.00.29:885][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.06.17-18.00.29:886][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.06.17-18.00.29:886][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.17-18.00.29:886][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.06.17-18.00.29:886][  0]LogD3D11RHI:   Driver Version: 376.51 (internal:21.21.13.7651, unified:376.51)
+[2017.06.17-18.00.29:886][  0]LogD3D11RHI:      Driver Date: 12-25-2016
+[2017.06.17-18.00.29:886][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.17-18.00.30:399][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.17-18.00.30:458][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.17-18.00.30:503][  0]LogShaderCompilers: Guid format shader working directory is 23 characters bigger than the processId version (G:/Git/VR_Battle/Battle/Intermediate/Shaders/WorkingDirectory/240/).
+[2017.06.17-18.00.30:504][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/C88FFAD94E67FA59B025E4B1C689BD40/'.
+[2017.06.17-18.00.30:504][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.17-18.00.31:661][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.17-18.00.31:707][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.17-18.00.31:753][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.17-18.00.31:800][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.17-18.00.31:849][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.17-18.00.31:892][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.17-18.00.31:936][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.17-18.00.31:983][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.17-18.00.32:026][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.17-18.00.32:077][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.17-18.00.32:125][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.17-18.00.32:170][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.17-18.00.32:221][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.17-18.00.32:269][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.17-18.00.32:318][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.17-18.00.32:423][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.17-18.00.32:423][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.17-18.00.32:466][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.17-18.00.32:574][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.17-18.00.32:606][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.17-18.00.32:650][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.17-18.00.32:696][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.17-18.00.32:738][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.17-18.00.32:778][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.17-18.00.32:778][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.17-18.00.33:305][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.17-18.00.33:414][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/User/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.17-18.00.33:414][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.17-18.00.33:414][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/Git/VR_Battle/Battle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.17-18.00.33:414][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.17-18.00.33:414][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/Git/VR_Battle/Battle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.17-18.00.33:414][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.17-18.00.33:430][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.17-18.00.33:443][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.17-18.00.33:452][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.17-18.00.33:453][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.17-18.00.33:453][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.17-18.00.33:453][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.17-18.00.33:741][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.17-18.00.33:815][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.17-18.00.33:968][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.17-18.00.34:012][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.17-18.00.34:056][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.17-18.00.34:056][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.17-18.00.34:056][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.17-18.00.34:528][  0]LogNetVersion: Battle , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3797721630)
+[2017.06.17-18.00.34:584][  0]LogAssetRegistry: FAssetRegistry took 0.0276 seconds to start up
+[2017.06.17-18.00.34:616][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.014476 seconds
+[2017.06.17-18.00.34:621][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.17-18.00.34:621][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.17-18.00.34:621][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.17-18.00.34:671][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.17-18.00.37:744][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.17-18.00.37:783][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.17-18.00.38:415][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.17-18.00.38:744][  0]SourceControl: Info Source control is disabled
+[2017.06.17-18.00.38:810][  0]SourceControl: Info Source control is disabled
+[2017.06.17-18.00.38:853][  0]SourceControl: Info Source control is disabled
+[2017.06.17-18.00.38:898][  0]SourceControl: Info Source control is disabled
+[2017.06.17-18.00.39:509][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.17-18.00.40:056][  0]LogEngine: Initializing Engine...
+[2017.06.17-18.00.40:311][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.06.17-18.00.40:533][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.17-18.00.40:533][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.17-18.00.40:658][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.17-18.00.40:680][  0]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-18.00.40:753][  0]LogInit: FAudioDevice initialized.
+[2017.06.17-18.00.40:807][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/User/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.17-18.00.40:826][  0]LogInit: Texture streaming: Enabled
+[2017.06.17-18.00.40:932][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.17-18.00.40:948][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={36D2CBD7-4449-365F-2D7D-A3ABBD4595EE}
+[2017.06.17-18.00.41:130][  0]LogInit: Transaction tracking system initialized
+[2017.06.17-18.00.41:394][  0]BlueprintLog: New page: Editor Load
+[2017.06.17-18.00.42:280][  0]LocalizationService: Info Localization service is disabled
+[2017.06.17-18.00.42:881][  0]LogConsoleResponse:Display: 
+[2017.06.17-18.00.43:020][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.17-18.00.43:020][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.17-18.00.43:458][  0]LogFileCache: Scanning file cache for directory 'G:/Git/VR_Battle/Battle/Content/' took 0.03s
+[2017.06.17-18.00.43:875][  0]SourceControl: Info Source control is disabled
+[2017.06.17-18.00.43:875][  0]Cmd: MAP LOAD FILE="G:/Git/VR_Battle/Battle/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.17-18.00.43:876][  0]LightingResults: New page: Lighting Build
+[2017.06.17-18.00.43:904][  0]MapCheck: New page: Map Check
+[2017.06.17-18.00.43:904][  0]LightingResults: New page: Lighting Build
+[2017.06.17-18.00.44:302][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-18.00.44:315][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.17-18.00.44:331][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.17-18.00.44:367][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.642ms to complete.
+[2017.06.17-18.00.44:368][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.493
+[2017.06.17-18.00.44:620][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.17-18.00.44:646][  0]LogCollectionManager: Loaded 0 collections in 0.001538 seconds
+[2017.06.17-18.00.44:718][  0]LogFileCache: Scanning file cache for directory 'G:/Git/VR_Battle/Battle/Saved/Collections/' took 0.01s
+[2017.06.17-18.00.44:718][  0]LogFileCache: Scanning file cache for directory 'G:/Git/VR_Battle/Battle/Content/Developers/User/Collections/' took 0.01s
+[2017.06.17-18.00.44:718][  0]LogFileCache: Scanning file cache for directory 'G:/Git/VR_Battle/Battle/Content/Collections/' took 0.01s
+[2017.06.17-18.00.44:718][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.06.17-18.00.44:727][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2336 classes and 495 folders.
+[2017.06.17-18.00.44:778][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2017.06.17-18.00.44:813][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.06.17-18.00.44:818][  0]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.17-18.00.44:820][  0]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.17-18.00.44:910][  0]LogRenderer: Reallocating scene render targets to support 1160x924 NumSamples 1 (Frame:1).
+[2017.06.17-18.00.45:031][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.17-18.00.45:094][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.06.17-18.00.45:094][  0]LogLoad: (Engine Initialization) Total time: 18.93 seconds
+[2017.06.17-18.00.45:094][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.16 seconds
+[2017.06.17-18.00.45:095][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.17-18.00.45:095][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.17-18.00.45:435][  0]LogOcInput: OculusInput pre-init called
+[2017.06.17-18.00.45:435][  0]LogHMD: Starting GearVRController plugin
+[2017.06.17-18.00.45:455][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.17-18.00.45:781][  1]LogAssetRegistry: Asset discovery search completed in 11.2214 seconds
+[2017.06.17-18.00.45:785][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.17-18.00.45:785][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000192 seconds (updated 0 objects)
+[2017.06.17-18.02.07:530][475]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.17-18.02.07:558][475]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.17-18.02.17:161][610]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.17-18.02.17:461][610]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0016 seconds. Added 112 classes and 0 folders.
+[2017.06.17-18.02.17:957][610]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.17-18.02.18:023][610]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.17-18.02.18:179][611]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.17-18.02.24:469][311]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.06.17-18.02.24:589][311]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.06.17-18.02.24:773][311]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.06.17-18.02.25:857][311]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0011 seconds. Added 1 classes and 0 folders.
+[2017.06.17-18.02.37:422][383]LogSlate: Took 0.001955 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.06.17-18.03.07:810][390]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.03.07:810][390]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.06.17-18.03.07:810][390]LogStats:             FDebug::EnsureFailed -  0.000 s
+[2017.06.17-18.03.10:088][390]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.03.10:097][390]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.03.10:113][391]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.03.10:445][392]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.03.10:779][393]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.03.11:109][394]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.03.11:191][402]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.03.11:191][402]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.03.11:277][409]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.03.11:277][409]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.03.11:281][409]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.03.11:284][409]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.03.11:292][410]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.03.11:295][410]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.03.11:298][410]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.03.13:296][580]LogSavePackage: Save=268.16ms
+[2017.06.17-18.03.13:297][580]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprintB949DED4415A246C4504179C2F131AA1.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-18.03.13:299][580]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-18.03.50:667][ 44]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.17-18.03.51:594][ 89]LogSavePackage: Save=236.48ms
+[2017.06.17-18.03.51:594][ 89]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprintDB1AFA97409C8D5DD8855A8E7BC509A7.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-18.03.51:597][ 89]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-18.05.00:308][596]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.17-18.05.48:607][355]LogSavePackage: Save=17.71ms
+[2017.06.17-18.05.48:607][355]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyTreeCC30EAA24487C984BBEA8F80E0418A3F.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/EnemyTree.uasset'
+[2017.06.17-18.05.48:609][355]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/EnemyTree.uasset
+[2017.06.17-18.05.54:640][ 71]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.17-18.05.54:819][ 71]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/BTTask_BlueprintBase_New.
+[2017.06.17-18.06.02:730][  5]LogMetaData: Removing '/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/AttackTask.SKEL_AttackTask_C' ref from Metadata '/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/BTTask_BlueprintBase_New.PackageMetaData'
+[2017.06.17-18.06.02:731][  5]LogMetaData: Removing '/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/AttackTask.AttackTask_C' ref from Metadata '/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/BTTask_BlueprintBase_New.PackageMetaData'
+[2017.06.17-18.06.02:750][  5]LogSavePackage: Save=2.86ms
+[2017.06.17-18.06.02:750][  5]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/AttackTask69BD3DA84B4005CB2032E4A9D0035F9A.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/AttackTask.uasset'
+[2017.06.17-18.06.02:752][  5]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/AttackTask.uasset
+[2017.06.17-18.06.02:975][ 14]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/AttackTask.
+[2017.06.17-18.06.12:939][207]BlueprintLog: New page: Compile AttackTask
+[2017.06.17-18.06.13:504][259]LogSavePackage: Save=4.54ms
+[2017.06.17-18.06.13:504][259]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/AttackTask268CA5F24E7F9D81FEBBA3B37DD0F83D.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/AttackTask.uasset'
+[2017.06.17-18.06.13:506][259]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/AttackTask.uasset
+[2017.06.17-18.08.42:187][385]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.17-18.08.43:107][431]LogSavePackage: Save=252.56ms
+[2017.06.17-18.08.43:107][431]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint0B6110B5440138A220C95B8ED9139331.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-18.08.43:109][431]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-18.09.48:688][ 28]BlueprintLog: New page: Compile AttackTask
+[2017.06.17-18.09.49:446][105]LogSavePackage: Save=9.40ms
+[2017.06.17-18.09.49:446][105]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/AttackTaskC367B2724D2243A2141AF38A03CDB6A8.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/AttackTask.uasset'
+[2017.06.17-18.09.49:449][105]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/AttackTask.uasset
+[2017.06.17-18.11.02:720][444]BlueprintLog: New page: Compile AttackTask
+[2017.06.17-18.11.03:204][485]LogSavePackage: Save=19.54ms
+[2017.06.17-18.11.03:204][485]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/AttackTask763837BF4910495FA96310BE49169F6B.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/AttackTask.uasset'
+[2017.06.17-18.11.03:206][485]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/AttackTask.uasset
+[2017.06.17-18.12.14:156][976]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.017
+[2017.06.17-18.12.14:158][976]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/EnemyTree] ([1] browsable assets)...
+[2017.06.17-18.12.14:158][976]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/EnemyTree]
+[2017.06.17-18.12.14:172][976]LogSavePackage: Save=8.13ms
+[2017.06.17-18.12.14:172][976]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyTree_Auto1F43BBF264E45A374AB76AFB6F2D2C3EF.tmp' to 'G:/Git/VR_Battle/Battle/Saved/Autosaves/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/EnemyTree_Auto1.uasset'
+[2017.06.17-18.12.14:173][976]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Saved/Autosaves/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/EnemyTree_Auto1.uasset
+[2017.06.17-18.12.14:173][976]LogFileHelpers: Auto-saving content packages took 0.016
+[2017.06.17-18.14.11:766][875]BlueprintLog: New page: Compile EnemyBP
+[2017.06.17-18.14.12:509][915]LogSavePackage: Save=72.53ms
+[2017.06.17-18.14.12:509][915]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyBP3BBA4EBD4E3FB20349359282F7E803D4.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset'
+[2017.06.17-18.14.12:512][915]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset
+[2017.06.17-18.14.35:772][685]LogEditorViewport: Clicking on Actor (LMB): VR_CharacterBP_C (VR_CharacterBP)
+[2017.06.17-18.14.54:211][482]BlueprintLog: New page: Compile VR_CharacterBP
+[2017.06.17-18.14.57:630][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_CharacterBP" FILE="G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset" SILENT=true
+[2017.06.17-18.14.57:647][523]LogSavePackage: Save=9.87ms
+[2017.06.17-18.14.57:647][523]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/VR_CharacterBPDBB823B8413B16D8D5EA8E8645F8BA8C.tmp' to 'G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset'
+[2017.06.17-18.14.57:649][523]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset
+[2017.06.17-18.14.59:752][687]LogSavePackage: Save=133.14ms
+[2017.06.17-18.14.59:752][687]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/ThirdPersonExampleMap5CF40B074BE7C5BDC584B6819845EEBC.tmp' to 'G:/Git/VR_Battle/Battle/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2017.06.17-18.14.59:755][687]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2017.06.17-18.14.59:779][687]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.233
+[2017.06.17-18.14.59:795][687]LogSavePackage: Save=8.66ms
+[2017.06.17-18.14.59:795][687]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyTree3183747D4C5A28E54BF83A84424E2D29.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/EnemyTree.uasset'
+[2017.06.17-18.14.59:798][687]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/EnemyTree.uasset
+[2017.06.17-18.15.00:753][791]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-18.15.00:841][791]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.15.00:845][791]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-18.15.00:846][791]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 10:15:00 AM)
+[2017.06.17-18.15.00:846][791]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-18.15.00:866][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019192s)
+[2017.06.17-18.15.00:867][791]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-18.15.00:867][791]LogPlayLevel: PIE: World Init took: (0.001384s)
+[2017.06.17-18.15.00:868][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021435s)
+[2017.06.17-18.15.00:930][791]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-18.15.00:941][791]LogInit: FAudioDevice initialized.
+[2017.06.17-18.15.00:993][791]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-18.15.00:996][791]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-02.15.00
+[2017.06.17-18.15.00:998][791]LogWorld: Bringing up level for play took: 0.002780
+[2017.06.17-18.15.01:027][791]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2017.06.17-18.15.01:028][791]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.23
+[2017.06.17-18.15.01:029][791]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.15.30:706][344]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.15.31:451][344]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.15.55:546][902]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.06.17-18.15.55:562][902]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.06.17-18.15.58:994][902]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.06.17-18.17.47:218][ 51]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.06.17-18.17.51:524][360]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.17-18.17.53:263][477]LogSavePackage: Save=237.92ms
+[2017.06.17-18.17.53:263][477]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint77AAF8D5469F323897C50AB7F5A1CD8A.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-18.17.53:265][477]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-18.19.43:876][578]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.17-18.19.44:877][609]LogSavePackage: Save=250.47ms
+[2017.06.17-18.19.44:878][609]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint124445834C726A1C7011F5B1C573D1FB.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-18.19.44:880][609]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-18.19.46:365][742]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-18.19.46:386][742]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.19.46:389][742]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-18.19.46:389][742]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 10:19:46 AM)
+[2017.06.17-18.19.46:389][742]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-18.19.46:410][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021036s)
+[2017.06.17-18.19.46:412][742]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-18.19.46:413][742]LogPlayLevel: PIE: World Init took: (0.002014s)
+[2017.06.17-18.19.46:413][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023653s)
+[2017.06.17-18.19.46:472][742]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-18.19.46:485][742]LogInit: FAudioDevice initialized.
+[2017.06.17-18.19.46:520][742]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-18.19.46:523][742]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-02.19.46
+[2017.06.17-18.19.46:524][742]LogWorld: Bringing up level for play took: 0.002283
+[2017.06.17-18.19.46:525][742]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.733
+[2017.06.17-18.19.46:526][742]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.19.53:792][607]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.19.55:795][607]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.20.51:236][558]LogSavePackage: Save=25.50ms
+[2017.06.17-18.20.51:236][558]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_Montage35ECCC0D41C1D3624ACD989B9EE11E68.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_Montage.uasset'
+[2017.06.17-18.20.51:238][558]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_Montage.uasset
+[2017.06.17-18.26.34:303][212]LogSavePackage: Save=15.42ms
+[2017.06.17-18.26.34:303][212]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_Montage4005C6F946180FB22A4281860C3363A6.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_Montage.uasset'
+[2017.06.17-18.26.34:305][212]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_Montage.uasset
+[2017.06.17-18.26.36:418][410]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-18.26.36:438][410]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.26.36:441][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-18.26.36:442][410]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 10:26:36 AM)
+[2017.06.17-18.26.36:442][410]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-18.26.36:465][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022846s)
+[2017.06.17-18.26.36:466][410]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-18.26.36:467][410]LogPlayLevel: PIE: World Init took: (0.001712s)
+[2017.06.17-18.26.36:467][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025273s)
+[2017.06.17-18.26.36:528][410]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-18.26.36:538][410]LogInit: FAudioDevice initialized.
+[2017.06.17-18.26.36:575][410]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-18.26.36:579][410]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-02.26.36
+[2017.06.17-18.26.36:580][410]LogWorld: Bringing up level for play took: 0.002193
+[2017.06.17-18.26.36:581][410]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.677
+[2017.06.17-18.26.36:582][410]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.26.48:613][847]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.26.49:541][847]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.27.09:757][918]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.17-18.27.10:647][955]LogSavePackage: Save=250.51ms
+[2017.06.17-18.27.10:647][955]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprintF390D3384468840773F1CEB1F9E699DA.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-18.27.10:649][955]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-18.27.12:161][123]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-18.27.12:181][123]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.27.12:184][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-18.27.12:185][123]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 10:27:12 AM)
+[2017.06.17-18.27.12:185][123]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-18.27.12:205][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019639s)
+[2017.06.17-18.27.12:206][123]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-18.27.12:207][123]LogPlayLevel: PIE: World Init took: (0.001540s)
+[2017.06.17-18.27.12:207][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022081s)
+[2017.06.17-18.27.12:269][123]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-18.27.12:279][123]LogInit: FAudioDevice initialized.
+[2017.06.17-18.27.12:319][123]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-18.27.12:322][123]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-02.27.12
+[2017.06.17-18.27.12:322][123]LogWorld: Bringing up level for play took: 0.002001
+[2017.06.17-18.27.12:324][123]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.066
+[2017.06.17-18.27.12:324][123]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.27.20:856][141]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.27.22:659][141]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.28.36:208][928]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.17-18.28.37:206][969]LogSavePackage: Save=243.73ms
+[2017.06.17-18.28.37:206][969]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprintA301C754427CC73C7539B6A5D1B6FCF3.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-18.28.37:208][969]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-18.31.36:096][197]LogSavePackage: Save=12.79ms
+[2017.06.17-18.31.36:096][197]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_MontageDA3529674E971FC3EEA8349F4BC9D833.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_Montage.uasset'
+[2017.06.17-18.31.36:098][197]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_Montage.uasset
+[2017.06.17-18.31.39:123][518]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-18.31.39:146][518]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.31.39:149][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-18.31.39:150][518]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 10:31:39 AM)
+[2017.06.17-18.31.39:150][518]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-18.31.39:171][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020290s)
+[2017.06.17-18.31.39:172][518]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-18.31.39:172][518]LogPlayLevel: PIE: World Init took: (0.001525s)
+[2017.06.17-18.31.39:173][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022548s)
+[2017.06.17-18.31.39:232][518]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-18.31.39:242][518]LogInit: FAudioDevice initialized.
+[2017.06.17-18.31.39:278][518]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-18.31.39:281][518]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-02.31.39
+[2017.06.17-18.31.39:281][518]LogWorld: Bringing up level for play took: 0.001998
+[2017.06.17-18.31.39:282][518]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.025
+[2017.06.17-18.31.39:283][518]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.31.44:722][163]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.31.46:364][163]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.32.39:114][985]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.17-18.32.40:065][ 26]LogSavePackage: Save=242.47ms
+[2017.06.17-18.32.40:065][ 26]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint375DFF6E4D18EFD6DDC7A0B1ACC30226.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-18.32.40:067][ 26]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-18.32.47:745][870]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.17-18.32.48:692][910]LogSavePackage: Save=241.64ms
+[2017.06.17-18.32.48:693][910]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint3D504B4A47CD65AA8788828DBCF58C5C.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-18.32.48:695][910]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-18.32.50:146][ 64]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-18.32.50:167][ 64]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.32.50:171][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-18.32.50:172][ 64]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 10:32:50 AM)
+[2017.06.17-18.32.50:172][ 64]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-18.32.50:192][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019864s)
+[2017.06.17-18.32.50:193][ 64]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-18.32.50:193][ 64]LogPlayLevel: PIE: World Init took: (0.001196s)
+[2017.06.17-18.32.50:194][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021768s)
+[2017.06.17-18.32.50:250][ 64]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-18.32.50:261][ 64]LogInit: FAudioDevice initialized.
+[2017.06.17-18.32.50:303][ 64]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-18.32.50:306][ 64]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-02.32.50
+[2017.06.17-18.32.50:307][ 64]LogWorld: Bringing up level for play took: 0.002520
+[2017.06.17-18.32.50:309][ 64]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.051
+[2017.06.17-18.32.50:309][ 64]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.32.55:926][731]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.32.57:746][731]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.33.33:152][688]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.17-18.33.33:978][722]LogSavePackage: Save=241.61ms
+[2017.06.17-18.33.33:978][722]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprintFE2AFCAB439A6FE9927B19A2D5BB880F.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-18.33.33:980][722]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-18.33.35:287][865]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-18.33.35:309][865]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.33.35:311][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-18.33.35:312][865]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 10:33:35 AM)
+[2017.06.17-18.33.35:312][865]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-18.33.35:332][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020519s)
+[2017.06.17-18.33.35:333][865]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-18.33.35:334][865]LogPlayLevel: PIE: World Init took: (0.001251s)
+[2017.06.17-18.33.35:334][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022432s)
+[2017.06.17-18.33.35:394][865]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-18.33.35:405][865]LogInit: FAudioDevice initialized.
+[2017.06.17-18.33.35:444][865]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-18.33.35:447][865]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-02.33.35
+[2017.06.17-18.33.35:448][865]LogWorld: Bringing up level for play took: 0.002556
+[2017.06.17-18.33.35:450][865]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.191
+[2017.06.17-18.33.35:450][865]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.33.39:601][357]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.33.41:267][357]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.35.59:162][793]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.021
+[2017.06.17-18.35.59:164][793]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint] ([1] browsable assets)...
+[2017.06.17-18.35.59:181][793]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint]
+[2017.06.17-18.35.59:182][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint]
+[2017.06.17-18.35.59:429][793]LogSavePackage: Save=243.38ms
+[2017.06.17-18.35.59:429][793]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint_Auto2E486B226425EA5E7B543E88BA96D1229.tmp' to 'G:/Git/VR_Battle/Battle/Saved/Autosaves/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint_Auto2.uasset'
+[2017.06.17-18.35.59:451][793]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Saved/Autosaves/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint_Auto2.uasset
+[2017.06.17-18.35.59:451][793]LogFileHelpers: Auto-saving content packages took 0.288
+[2017.06.17-18.37.47:004][639]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.17-18.37.48:045][663]LogSavePackage: Save=240.06ms
+[2017.06.17-18.37.48:045][663]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint98EEBC4C4A213DACADC3DF96737E137C.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-18.37.48:047][663]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-18.37.49:318][776]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-18.37.49:339][776]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.37.49:342][776]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-18.37.49:343][776]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 10:37:49 AM)
+[2017.06.17-18.37.49:343][776]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-18.37.49:365][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021388s)
+[2017.06.17-18.37.49:366][776]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-18.37.49:366][776]LogPlayLevel: PIE: World Init took: (0.001478s)
+[2017.06.17-18.37.49:367][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023555s)
+[2017.06.17-18.37.49:422][776]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-18.37.49:435][776]LogInit: FAudioDevice initialized.
+[2017.06.17-18.37.49:469][776]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-18.37.49:472][776]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-02.37.49
+[2017.06.17-18.37.49:473][776]LogWorld: Bringing up level for play took: 0.002168
+[2017.06.17-18.37.49:474][776]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.216
+[2017.06.17-18.37.49:475][776]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.38.04:196][530]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.38.06:819][530]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.38.09:057][660]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.17-18.38.10:022][688]LogSavePackage: Save=240.34ms
+[2017.06.17-18.38.10:022][688]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint9D1E194B470DF4B9746CF3B79C635F2D.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-18.38.10:023][688]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-18.39.56:867][510]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.17-18.39.57:852][535]LogSavePackage: Save=242.55ms
+[2017.06.17-18.39.57:852][535]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprintCE586A864235E8FFB1788395C94E67C9.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-18.39.57:855][535]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-18.39.59:185][658]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-18.39.59:206][658]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.39.59:209][658]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-18.39.59:209][658]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 10:39:59 AM)
+[2017.06.17-18.39.59:209][658]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-18.39.59:232][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022275s)
+[2017.06.17-18.39.59:232][658]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-18.39.59:233][658]LogPlayLevel: PIE: World Init took: (0.000984s)
+[2017.06.17-18.39.59:233][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023853s)
+[2017.06.17-18.39.59:295][658]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-18.39.59:306][658]LogInit: FAudioDevice initialized.
+[2017.06.17-18.39.59:346][658]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-18.39.59:350][658]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-02.39.59
+[2017.06.17-18.39.59:351][658]LogWorld: Bringing up level for play took: 0.001986
+[2017.06.17-18.39.59:352][658]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.094
+[2017.06.17-18.39.59:352][658]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.40.04:375][249]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.40.07:299][249]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.40.19:495][483]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.17-18.40.20:380][520]LogSavePackage: Save=249.95ms
+[2017.06.17-18.40.20:380][520]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprintC89B82364127213397D630BCB6A3DDD0.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-18.40.20:383][520]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-18.40.21:644][648]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-18.40.21:665][648]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.40.21:668][648]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-18.40.21:668][648]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 10:40:21 AM)
+[2017.06.17-18.40.21:668][648]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-18.40.21:689][648]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020625s)
+[2017.06.17-18.40.21:690][648]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-18.40.21:691][648]LogPlayLevel: PIE: World Init took: (0.001376s)
+[2017.06.17-18.40.21:691][648]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023144s)
+[2017.06.17-18.40.21:753][648]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-18.40.21:764][648]LogInit: FAudioDevice initialized.
+[2017.06.17-18.40.21:801][648]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-18.40.21:804][648]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-02.40.21
+[2017.06.17-18.40.21:804][648]LogWorld: Bringing up level for play took: 0.001873
+[2017.06.17-18.40.21:806][648]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.548
+[2017.06.17-18.40.21:806][648]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.40.44:806][399]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.40.47:393][399]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.41.02:108][ 42]LogSavePackage: Save=46.83ms
+[2017.06.17-18.41.02:108][ 42]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyBP0E39054C49106F1A2327E681DDFE95F9.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset'
+[2017.06.17-18.41.02:110][ 42]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset
+[2017.06.17-18.41.21:786][ 28]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.17-18.41.22:600][ 54]LogSavePackage: Save=244.16ms
+[2017.06.17-18.41.22:600][ 54]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint696335F848EF7701C43837B0DD89A3E5.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-18.41.22:602][ 54]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-18.41.24:063][209]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-18.41.24:085][209]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.41.24:088][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-18.41.24:089][209]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 10:41:24 AM)
+[2017.06.17-18.41.24:089][209]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-18.41.24:110][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020758s)
+[2017.06.17-18.41.24:111][209]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-18.41.24:112][209]LogPlayLevel: PIE: World Init took: (0.001688s)
+[2017.06.17-18.41.24:112][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023117s)
+[2017.06.17-18.41.24:170][209]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-18.41.24:181][209]LogInit: FAudioDevice initialized.
+[2017.06.17-18.41.24:220][209]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-18.41.24:223][209]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-02.41.24
+[2017.06.17-18.41.24:224][209]LogWorld: Bringing up level for play took: 0.002133
+[2017.06.17-18.41.24:226][209]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.968
+[2017.06.17-18.41.24:226][209]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.41.39:166][993]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.41.42:003][993]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.41.51:829][980]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.17-18.41.52:771][ 17]LogSavePackage: Save=242.03ms
+[2017.06.17-18.41.52:771][ 17]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprintBADF548444C39669D0CE7A883293CA40.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-18.41.52:774][ 17]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-18.41.54:078][155]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-18.41.54:099][155]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.41.54:103][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-18.41.54:103][155]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 10:41:54 AM)
+[2017.06.17-18.41.54:103][155]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-18.41.54:128][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024477s)
+[2017.06.17-18.41.54:129][155]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-18.41.54:129][155]LogPlayLevel: PIE: World Init took: (0.001461s)
+[2017.06.17-18.41.54:130][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026591s)
+[2017.06.17-18.41.54:192][155]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-18.41.54:202][155]LogInit: FAudioDevice initialized.
+[2017.06.17-18.41.54:240][155]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-18.41.54:243][155]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-02.41.54
+[2017.06.17-18.41.54:244][155]LogWorld: Bringing up level for play took: 0.002035
+[2017.06.17-18.41.54:245][155]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.988
+[2017.06.17-18.41.54:246][155]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.42.30:073][979]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.42.31:569][158]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.42.31:570][158]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.42.31:573][158]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.42.31:575][158]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.42.41:121][297]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.42.41:121][297]LogUObjectArray:Warning: Other object in slot
+[2017.06.17-18.42.41:906][390]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.42.43:203][390]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.42.57:402][243]LogEditorTransaction: Undo Delete current selection
+[2017.06.17-18.43.08:004][243]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.06.17-18.43.08:026][243]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.06.17-18.43.13:301][442]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.17-18.43.14:393][480]LogSavePackage: Save=253.98ms
+[2017.06.17-18.43.14:393][480]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint1129FC6C4B4EF8B96EE85890D290AB21.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-18.43.14:395][480]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-18.43.16:158][617]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-18.43.16:177][617]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.43.16:180][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-18.43.16:181][617]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 10:43:16 AM)
+[2017.06.17-18.43.16:181][617]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-18.43.16:204][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023450s)
+[2017.06.17-18.43.16:206][617]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-18.43.16:206][617]LogPlayLevel: PIE: World Init took: (0.001458s)
+[2017.06.17-18.43.16:207][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025824s)
+[2017.06.17-18.43.16:263][617]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-18.43.16:273][617]LogInit: FAudioDevice initialized.
+[2017.06.17-18.43.16:308][617]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-18.43.16:312][617]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-02.43.16
+[2017.06.17-18.43.16:313][617]LogWorld: Bringing up level for play took: 0.002385
+[2017.06.17-18.43.16:314][617]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.056
+[2017.06.17-18.43.16:315][617]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.43.41:029][714]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.43.44:297][714]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.43.53:426][193]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.17-18.43.54:630][231]LogSavePackage: Save=245.52ms
+[2017.06.17-18.43.54:631][231]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint961ADB6B4CC8DDABA342D985E7F1A72E.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-18.43.54:633][231]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-18.43.57:153][421]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-18.43.57:176][421]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.43.57:179][421]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-18.43.57:179][421]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 10:43:57 AM)
+[2017.06.17-18.43.57:179][421]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-18.43.57:200][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020607s)
+[2017.06.17-18.43.57:201][421]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-18.43.57:202][421]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2017.06.17-18.43.57:202][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022380s)
+[2017.06.17-18.43.57:262][421]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-18.43.57:275][421]LogInit: FAudioDevice initialized.
+[2017.06.17-18.43.57:309][421]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-18.43.57:312][421]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-02.43.57
+[2017.06.17-18.43.57:313][421]LogWorld: Bringing up level for play took: 0.002097
+[2017.06.17-18.43.57:314][421]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.056
+[2017.06.17-18.43.57:314][421]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.44.07:008][576]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.44.08:107][576]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.44.34:546][480]BlueprintLog: New page: Compile SearchTask
+[2017.06.17-18.44.35:214][541]LogSavePackage: Save=17.74ms
+[2017.06.17-18.44.35:214][541]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SearchTask624384E1424CC3F6C1F793BC14C9D8A1.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/SearchTask.uasset'
+[2017.06.17-18.44.35:216][541]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/SearchTask.uasset
+[2017.06.17-18.44.53:069][677]LogSavePackage: Save=18.03ms
+[2017.06.17-18.44.53:069][677]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SearchTaskE9830FAD416B5043767A41896A914723.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/SearchTask.uasset'
+[2017.06.17-18.44.53:070][677]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/SearchTask.uasset
+[2017.06.17-18.44.55:328][934]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-18.44.55:348][934]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.44.55:351][934]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-18.44.55:352][934]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 10:44:55 AM)
+[2017.06.17-18.44.55:352][934]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-18.44.55:380][934]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028061s)
+[2017.06.17-18.44.55:381][934]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-18.44.55:381][934]LogPlayLevel: PIE: World Init took: (0.001032s)
+[2017.06.17-18.44.55:381][934]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.029653s)
+[2017.06.17-18.44.55:435][934]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-18.44.55:445][934]LogInit: FAudioDevice initialized.
+[2017.06.17-18.44.55:483][934]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-18.44.55:486][934]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-02.44.55
+[2017.06.17-18.44.55:487][934]LogWorld: Bringing up level for play took: 0.002263
+[2017.06.17-18.44.55:488][934]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.23
+[2017.06.17-18.44.55:488][934]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.45.28:836][924]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.45.31:791][924]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.45.33:968][ 84]LogSavePackage: Save=20.69ms
+[2017.06.17-18.45.33:968][ 84]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_Montage573C634E4C16962A2259ED8C612A5E3D.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_Montage.uasset'
+[2017.06.17-18.45.33:970][ 84]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_Montage.uasset
+[2017.06.17-18.46.39:089][884]BlueprintLog: New page: Compile EnemyController_BP
+[2017.06.17-18.46.39:723][919]LogSavePackage: Save=51.69ms
+[2017.06.17-18.46.39:723][919]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyController_BP10995E594D31551BD4BD5EB3B4C8EC96.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset'
+[2017.06.17-18.46.39:725][919]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset
+[2017.06.17-18.46.41:672][144]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-18.46.41:693][144]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.46.41:696][144]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-18.46.41:697][144]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 10:46:41 AM)
+[2017.06.17-18.46.41:697][144]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-18.46.41:716][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019450s)
+[2017.06.17-18.46.41:717][144]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-18.46.41:718][144]LogPlayLevel: PIE: World Init took: (0.001422s)
+[2017.06.17-18.46.41:718][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021534s)
+[2017.06.17-18.46.41:782][144]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-18.46.41:794][144]LogInit: FAudioDevice initialized.
+[2017.06.17-18.46.41:829][144]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-18.46.41:832][144]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-02.46.41
+[2017.06.17-18.46.41:833][144]LogWorld: Bringing up level for play took: 0.002254
+[2017.06.17-18.46.41:834][144]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.576
+[2017.06.17-18.46.41:835][144]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.48.34:406][929]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.48.36:548][929]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.49.22:836][480]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.17-18.49.23:916][513]LogSavePackage: Save=239.68ms
+[2017.06.17-18.49.23:916][513]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint70AD9D0147C4583CA6BE04860F0590E6.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-18.49.23:917][513]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-18.50.48:115][639]BlueprintLog: New page: Compile StateServer
+[2017.06.17-18.50.48:966][698]LogSavePackage: Save=28.88ms
+[2017.06.17-18.50.48:966][698]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/StateServer1BCCEF27478DD4B1BBE4C4962B096865.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/StateServer.uasset'
+[2017.06.17-18.50.48:968][698]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/StateServer.uasset
+[2017.06.17-18.50.57:546][550]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-18.50.57:570][550]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.50.57:574][550]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-18.50.57:574][550]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 10:50:57 AM)
+[2017.06.17-18.50.57:574][550]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-18.50.57:596][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021036s)
+[2017.06.17-18.50.57:597][550]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-18.50.57:597][550]LogPlayLevel: PIE: World Init took: (0.001303s)
+[2017.06.17-18.50.57:598][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023136s)
+[2017.06.17-18.50.57:659][550]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-18.50.57:671][550]LogInit: FAudioDevice initialized.
+[2017.06.17-18.50.57:706][550]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-18.50.57:709][550]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-02.50.57
+[2017.06.17-18.50.57:710][550]LogWorld: Bringing up level for play took: 0.001936
+[2017.06.17-18.50.57:711][550]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.453
+[2017.06.17-18.50.57:712][550]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.51.50:710][335]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.51.53:841][335]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.53.03:245][ 81]BlueprintLog: New page: Compile SearchTask
+[2017.06.17-18.53.04:251][177]LogSavePackage: Save=21.24ms
+[2017.06.17-18.53.04:252][177]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SearchTask8274971640EC60A1ABCBD68F5812E9FC.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/SearchTask.uasset'
+[2017.06.17-18.53.04:254][177]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/SearchTask.uasset
+[2017.06.17-18.53.06:047][382]BlueprintLog: New page: Compile SearchTask
+[2017.06.17-18.53.06:518][418]LogSavePackage: Save=19.61ms
+[2017.06.17-18.53.06:518][418]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SearchTask7D50421B442C4A34497369B23F593F51.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/SearchTask.uasset'
+[2017.06.17-18.53.06:520][418]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/SearchTask.uasset
+[2017.06.17-18.53.08:566][567]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-18.53.08:588][567]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.53.08:591][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-18.53.08:592][567]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 10:53:08 AM)
+[2017.06.17-18.53.08:592][567]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-18.53.08:612][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019427s)
+[2017.06.17-18.53.08:613][567]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-18.53.08:613][567]LogPlayLevel: PIE: World Init took: (0.001520s)
+[2017.06.17-18.53.08:614][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021627s)
+[2017.06.17-18.53.08:674][567]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-18.53.08:685][567]LogInit: FAudioDevice initialized.
+[2017.06.17-18.53.08:719][567]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-18.53.08:722][567]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-02.53.08
+[2017.06.17-18.53.08:723][567]LogWorld: Bringing up level for play took: 0.002199
+[2017.06.17-18.53.08:725][567]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.533
+[2017.06.17-18.53.08:725][567]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.53.28:796][965]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.53.30:644][965]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.54.27:662][432]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.022
+[2017.06.17-18.54.27:664][432]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/EnemyTree] ([1] browsable assets)...
+[2017.06.17-18.54.27:665][432]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/EnemyTree]
+[2017.06.17-18.54.27:680][432]LogSavePackage: Save=10.16ms
+[2017.06.17-18.54.27:680][432]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyTree_Auto37061846B4F4A7BB8C4BBA294EA29A02E.tmp' to 'G:/Git/VR_Battle/Battle/Saved/Autosaves/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/EnemyTree_Auto3.uasset'
+[2017.06.17-18.54.27:681][432]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Saved/Autosaves/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/EnemyTree_Auto3.uasset
+[2017.06.17-18.54.27:681][432]LogFileHelpers: Auto-saving content packages took 0.017
+[2017.06.17-18.54.44:883][896]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.17-18.54.45:728][907]LogSavePackage: Save=240.90ms
+[2017.06.17-18.54.45:728][907]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint72D75EF44E72B570023E33926A896058.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-18.54.45:731][907]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-18.54.47:045][ 24]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-18.54.47:069][ 24]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.54.47:073][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-18.54.47:073][ 24]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 10:54:47 AM)
+[2017.06.17-18.54.47:073][ 24]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-18.54.47:091][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017943s)
+[2017.06.17-18.54.47:092][ 24]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-18.54.47:093][ 24]LogPlayLevel: PIE: World Init took: (0.001300s)
+[2017.06.17-18.54.47:093][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019874s)
+[2017.06.17-18.54.47:151][ 24]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-18.54.47:161][ 24]LogInit: FAudioDevice initialized.
+[2017.06.17-18.54.47:198][ 24]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-18.54.47:202][ 24]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-02.54.47
+[2017.06.17-18.54.47:202][ 24]LogWorld: Bringing up level for play took: 0.002791
+[2017.06.17-18.54.47:205][ 24]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.054
+[2017.06.17-18.54.47:205][ 24]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.57.08:325][572]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.57.11:215][572]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.59.27:092][400]BlueprintLog: New page: Compile SearchTask
+[2017.06.17-18.59.27:734][449]LogSavePackage: Save=41.67ms
+[2017.06.17-18.59.27:734][449]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SearchTaskE26D9BF74E7BC04123718FA871911926.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/SearchTask.uasset'
+[2017.06.17-18.59.27:736][449]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/SearchTask.uasset
+[2017.06.17-18.59.30:503][682]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-18.59.30:526][682]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-18.59.30:530][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-18.59.30:530][682]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 10:59:30 AM)
+[2017.06.17-18.59.30:530][682]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-18.59.30:550][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018755s)
+[2017.06.17-18.59.30:551][682]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-18.59.30:551][682]LogPlayLevel: PIE: World Init took: (0.001706s)
+[2017.06.17-18.59.30:552][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021131s)
+[2017.06.17-18.59.30:616][682]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-18.59.30:628][682]LogInit: FAudioDevice initialized.
+[2017.06.17-18.59.30:664][682]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-18.59.30:667][682]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-02.59.30
+[2017.06.17-18.59.30:668][682]LogWorld: Bringing up level for play took: 0.002259
+[2017.06.17-18.59.30:669][682]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.589
+[2017.06.17-18.59.30:670][682]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.00.05:215][586]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.00.09:609][586]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.00.20:116][507]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.00.20:118][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-19.00.20:119][507]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 11:00:20 AM)
+[2017.06.17-19.00.20:119][507]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-19.00.20:136][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017206s)
+[2017.06.17-19.00.20:137][507]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-19.00.20:138][507]LogPlayLevel: PIE: World Init took: (0.001245s)
+[2017.06.17-19.00.20:138][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019096s)
+[2017.06.17-19.00.20:199][507]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-19.00.20:209][507]LogInit: FAudioDevice initialized.
+[2017.06.17-19.00.20:268][507]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-19.00.20:272][507]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-03.00.20
+[2017.06.17-19.00.20:273][507]LogWorld: Bringing up level for play took: 0.003466
+[2017.06.17-19.00.20:274][507]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.06.17-19.00.20:283][507]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.025
+[2017.06.17-19.00.20:284][507]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.00.20:341][507]LogRenderer: Reallocating scene render targets to support 1292x924 NumSamples 1 (Frame:1).
+[2017.06.17-19.00.42:384][767]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.00.44:125][767]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.00.49:848][ 58]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.17-19.00.49:872][ 58]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.00.49:875][ 58]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-19.00.49:875][ 58]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 11:00:49 AM)
+[2017.06.17-19.00.49:875][ 58]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-19.00.49:895][ 58]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019419s)
+[2017.06.17-19.00.49:896][ 58]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-19.00.49:896][ 58]LogPlayLevel: PIE: World Init took: (0.001187s)
+[2017.06.17-19.00.49:897][ 58]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021516s)
+[2017.06.17-19.00.49:955][ 58]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-19.00.49:965][ 58]LogInit: FAudioDevice initialized.
+[2017.06.17-19.00.50:015][ 58]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-19.00.50:019][ 58]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-03.00.50
+[2017.06.17-19.00.50:020][ 58]LogWorld: Bringing up level for play took: 0.003162
+[2017.06.17-19.00.50:021][ 58]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.06.17-19.00.50:024][ 58]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.766
+[2017.06.17-19.00.50:025][ 58]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.01.16:850][180]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.01.21:656][180]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.03.09:993][286]BlueprintLog: New page: Compile SearchTask
+[2017.06.17-19.03.10:580][333]LogSavePackage: Save=21.44ms
+[2017.06.17-19.03.10:580][333]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SearchTaskA101F86C4F96FFF5250A39904E227EB2.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/SearchTask.uasset'
+[2017.06.17-19.03.10:582][333]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/SearchTask.uasset
+[2017.06.17-19.03.13:158][477]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.17-19.03.13:181][477]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.03.13:184][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-19.03.13:184][477]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 11:03:13 AM)
+[2017.06.17-19.03.13:185][477]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-19.03.13:205][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020387s)
+[2017.06.17-19.03.13:206][477]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-19.03.13:207][477]LogPlayLevel: PIE: World Init took: (0.001296s)
+[2017.06.17-19.03.13:207][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022414s)
+[2017.06.17-19.03.13:272][477]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-19.03.13:284][477]LogInit: FAudioDevice initialized.
+[2017.06.17-19.03.13:338][477]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-19.03.13:342][477]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-03.03.13
+[2017.06.17-19.03.13:343][477]LogWorld: Bringing up level for play took: 0.003134
+[2017.06.17-19.03.13:347][477]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.089
+[2017.06.17-19.03.13:348][477]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.03.36:409][181]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.03.37:915][181]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.04.10:655][816]BlueprintLog: New page: Compile StateServer
+[2017.06.17-19.04.11:254][855]LogSavePackage: Save=27.56ms
+[2017.06.17-19.04.11:255][855]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/StateServer273419C14F89165AEB15538D0DFA22E1.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/StateServer.uasset'
+[2017.06.17-19.04.11:257][855]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/StateServer.uasset
+[2017.06.17-19.04.11:847][925]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.17-19.04.11:872][925]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.04.11:876][925]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-19.04.11:876][925]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 11:04:11 AM)
+[2017.06.17-19.04.11:876][925]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-19.04.11:896][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020025s)
+[2017.06.17-19.04.11:897][925]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-19.04.11:898][925]LogPlayLevel: PIE: World Init took: (0.001444s)
+[2017.06.17-19.04.11:898][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022124s)
+[2017.06.17-19.04.11:958][925]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-19.04.11:968][925]LogInit: FAudioDevice initialized.
+[2017.06.17-19.04.12:018][925]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-19.04.12:022][925]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-03.04.12
+[2017.06.17-19.04.12:023][925]LogWorld: Bringing up level for play took: 0.003654
+[2017.06.17-19.04.12:024][925]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.06.17-19.04.12:026][925]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.768
+[2017.06.17-19.04.12:027][925]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.04.42:300][536]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.04.46:601][536]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.04.56:249][662]BlueprintLog: New page: Compile StateServer
+[2017.06.17-19.04.56:892][706]LogSavePackage: Save=23.94ms
+[2017.06.17-19.04.56:892][706]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/StateServerA772621D4CD239413220A8BC28A8CC04.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/StateServer.uasset'
+[2017.06.17-19.04.56:895][706]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/StateServer.uasset
+[2017.06.17-19.07.21:392][717]BlueprintLog: New page: Compile StateServer
+[2017.06.17-19.07.22:004][752]LogSavePackage: Save=30.06ms
+[2017.06.17-19.07.22:005][752]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/StateServer227BD6624869FCBAECEBD9BFF9F1AD09.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/StateServer.uasset'
+[2017.06.17-19.07.22:007][752]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/StateServer.uasset
+[2017.06.17-19.07.25:748][ 69]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.07.25:751][ 69]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-19.07.25:752][ 69]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 11:07:25 AM)
+[2017.06.17-19.07.25:752][ 69]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-19.07.25:771][ 69]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018927s)
+[2017.06.17-19.07.25:772][ 69]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-19.07.25:773][ 69]LogPlayLevel: PIE: World Init took: (0.001465s)
+[2017.06.17-19.07.25:773][ 69]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021101s)
+[2017.06.17-19.07.25:831][ 69]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-19.07.25:842][ 69]LogInit: FAudioDevice initialized.
+[2017.06.17-19.07.25:878][ 69]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-19.07.25:881][ 69]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-03.07.25
+[2017.06.17-19.07.25:882][ 69]LogWorld: Bringing up level for play took: 0.002183
+[2017.06.17-19.07.25:884][ 69]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.626
+[2017.06.17-19.07.25:884][ 69]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.07.39:187][656]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.07.40:635][656]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.08.01:562][513]BlueprintLog: New page: Compile SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint
+[2017.06.17-19.08.02:909][543]LogSavePackage: Save=239.95ms
+[2017.06.17-19.08.02:909][543]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint76D0833741E217BB8BC5A9AD6FFAB8BB.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-19.08.02:911][543]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-19.08.31:699][657]BlueprintLog: New page: Compile EnemyController_BP
+[2017.06.17-19.08.32:462][692]LogSavePackage: Save=45.40ms
+[2017.06.17-19.08.32:463][692]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyController_BP7EBD595647307B4A8FC561BE9507435D.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset'
+[2017.06.17-19.08.32:464][692]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyController_BP.uasset
+[2017.06.17-19.08.33:783][822]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-19.08.33:808][822]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.08.33:811][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-19.08.33:811][822]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 18, 2017, 11:08:33 AM)
+[2017.06.17-19.08.33:811][822]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.17-19.08.33:829][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018102s)
+[2017.06.17-19.08.33:831][822]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.17-19.08.33:831][822]LogPlayLevel: PIE: World Init took: (0.001542s)
+[2017.06.17-19.08.33:832][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020431s)
+[2017.06.17-19.08.33:892][822]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.17-19.08.33:903][822]LogInit: FAudioDevice initialized.
+[2017.06.17-19.08.33:942][822]LogLoad: Game class is 'BattleGameMode'
+[2017.06.17-19.08.33:945][822]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.18-03.08.33
+[2017.06.17-19.08.33:946][822]LogWorld: Bringing up level for play took: 0.002401
+[2017.06.17-19.08.33:947][822]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.689
+[2017.06.17-19.08.33:948][822]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.09.36:405][848]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.09.40:751][848]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.17-19.09.52:645][130]LogSavePackage: Save=27.32ms
+[2017.06.17-19.09.52:645][130]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyTree18C97DA242AE4D6AE410D8AA9623DE2B.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/EnemyTree.uasset'
+[2017.06.17-19.09.52:647][130]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/AITree/EnemyTree.uasset
+[2017.06.17-19.10.03:832][143]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.17-19.10.06:745][320]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.17-19.11.13:202][ 51]BlueprintLog: New page: Compile VR_CharacterBP
+[2017.06.17-19.11.14:478][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_CharacterBP" FILE="G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset" SILENT=true
+[2017.06.17-19.11.14:492][103]LogSavePackage: Save=9.54ms
+[2017.06.17-19.11.14:493][103]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/VR_CharacterBPDC65CB874598EA71743C73B74BAAF2AA.tmp' to 'G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset'
+[2017.06.17-19.11.14:495][103]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset
+[2017.06.17-19.11.51:412][624]LogSavePackage: Save=131.59ms
+[2017.06.17-19.11.51:413][624]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/ThirdPersonExampleMap_Auto42C1D666C4FF40E6792455CA9A5C57F6E.tmp' to 'G:/Git/VR_Battle/Battle/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2017.06.17-19.11.51:413][624]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto4.umap
+[2017.06.17-19.11.51:415][624]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.182
+[2017.06.17-19.11.51:416][624]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.182
+[2017.06.17-19.13.11:159][119]BlueprintLog: New page: Compile VR_CharacterBP
+[2017.06.17-19.13.14:445][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_CharacterBP" FILE="G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset" SILENT=true
+[2017.06.17-19.13.14:460][208]LogSavePackage: Save=10.65ms
+[2017.06.17-19.13.14:460][208]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/VR_CharacterBPA7D4FC644431CCA91796B798F54CA61E.tmp' to 'G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset'
+[2017.06.17-19.13.14:462][208]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset
+[2017.06.17-19.15.17:612][582]LogContentBrowser: Native class hierarchy updated for 'PhAT' in 0.0017 seconds. Added 2 classes and 3 folders.
+[2017.06.17-19.16.11:018][801]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.EnemyBP_2.LeftHand) Not currently registered. Aborting.
+[2017.06.17-19.16.11:018][801]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_3:PersistentLevel.EnemyBP_C_0.LeftHand) Not currently registered. Aborting.
+[2017.06.17-19.16.11:018][801]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_19:PersistentLevel.EnemyBP_C_12.LeftHand) Not currently registered. Aborting.
+[2017.06.17-19.16.18:856][718]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_3:PersistentLevel.EnemyBP_C_0.RightHand) Not currently registered. Aborting.
+[2017.06.17-19.16.18:856][718]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.EnemyBP_2.RightHand) Not currently registered. Aborting.
+[2017.06.17-19.16.18:856][718]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_19:PersistentLevel.EnemyBP_C_12.RightHand) Not currently registered. Aborting.
+[2017.06.17-19.16.21:076][979]BlueprintLog: New page: Compile EnemyBP
+[2017.06.17-19.16.21:921][ 27]LogSavePackage: Save=55.55ms
+[2017.06.17-19.16.21:921][ 27]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyBPC7C966E541139779381518B299821690.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset'
+[2017.06.17-19.16.21:923][ 27]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset
+[2017.06.17-19.17.25:006][274]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.VR_CharacterBP_2.Shield) Not currently registered. Aborting.
+[2017.06.17-19.17.25:007][274]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_18:PersistentLevel.VR_CharacterBP_C_0.Shield) Not currently registered. Aborting.
+[2017.06.17-19.17.26:426][439]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.VR_CharacterBP_2.Shield) Not currently registered. Aborting.
+[2017.06.17-19.17.26:426][439]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_18:PersistentLevel.VR_CharacterBP_C_0.Shield) Not currently registered. Aborting.
+[2017.06.17-19.17.28:332][663]BlueprintLog: New page: Compile VR_CharacterBP
+[2017.06.17-19.17.31:572][703]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_CharacterBP" FILE="G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset" SILENT=true
+[2017.06.17-19.17.31:600][703]LogSavePackage: Save=20.78ms
+[2017.06.17-19.17.31:600][703]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/VR_CharacterBP89DE124F41DA97548EA1009A2194475B.tmp' to 'G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset'
+[2017.06.17-19.17.31:602][703]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset
+[2017.06.17-19.18.55:154][174]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.06.17-19.19.02:390][637]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.06.17-19.19.13:838][172]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_4.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.06.17-19.19.17:677][262]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.Actor_5.DebugSkelMeshComponent_7) Already registered. Aborting.
+[2017.06.17-19.19.59:724][221]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.VR_CharacterBP_2.Sword) Not currently registered. Aborting.
+[2017.06.17-19.19.59:724][221]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_23:PersistentLevel.VR_CharacterBP_C_6.Sword) Not currently registered. Aborting.
+[2017.06.17-19.19.59:724][221]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_18:PersistentLevel.VR_CharacterBP_C_0.Sword) Not currently registered. Aborting.
+[2017.06.17-19.20.04:544][793]BlueprintLog: New page: Compile VR_CharacterBP
+[2017.06.17-19.20.08:187][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_CharacterBP" FILE="G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset" SILENT=true
+[2017.06.17-19.20.08:213][891]LogSavePackage: Save=21.98ms
+[2017.06.17-19.20.08:214][891]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/VR_CharacterBPB25BFC2D456A5A30C3242D9CA22D63D6.tmp' to 'G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset'
+[2017.06.17-19.20.08:215][891]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset
+[2017.06.17-19.20.24:571][793]BlueprintLog: New page: Compile VR_CharacterBP
+[2017.06.17-19.20.27:052][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_CharacterBP" FILE="G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset" SILENT=true
+[2017.06.17-19.20.27:079][827]LogSavePackage: Save=23.68ms
+[2017.06.17-19.20.27:080][827]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/VR_CharacterBP52924C7E4B0ECC718DED108DA1BA2C77.tmp' to 'G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset'
+[2017.06.17-19.20.27:082][827]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset
+[2017.06.17-19.20.33:205][518]BlueprintLog: New page: Compile VR_CharacterBP
+[2017.06.17-19.20.36:286][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_CharacterBP" FILE="G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset" SILENT=true
+[2017.06.17-19.20.36:320][558]LogSavePackage: Save=27.87ms
+[2017.06.17-19.20.36:320][558]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/VR_CharacterBPD686CEFB4C7DCC6BB0B56F9379E3F983.tmp' to 'G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset'
+[2017.06.17-19.20.36:323][558]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset
+[2017.06.17-19.21.19:535][347]BlueprintLog: New page: Compile VR_CharacterBP
+[2017.06.17-19.21.26:810][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_CharacterBP" FILE="G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset" SILENT=true
+[2017.06.17-19.21.26:840][395]LogSavePackage: Save=25.14ms
+[2017.06.17-19.21.26:841][395]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/VR_CharacterBPCBBB30F843C53EAFCB7C688A0CF6A47B.tmp' to 'G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset'
+[2017.06.17-19.21.26:843][395]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset
+[2017.06.17-19.22.29:882][292]BlueprintLog: New page: Compile VR_CharacterBP
+[2017.06.17-19.22.34:397][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_CharacterBP" FILE="G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset" SILENT=true
+[2017.06.17-19.22.34:435][341]LogSavePackage: Save=33.01ms
+[2017.06.17-19.22.34:435][341]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/VR_CharacterBP4C14A431427489B3D824E28A8141E845.tmp' to 'G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset'
+[2017.06.17-19.22.34:437][341]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset
+[2017.06.17-19.23.00:768][767]LogSavePackage: Save=126.21ms
+[2017.06.17-19.23.00:768][767]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/ThirdPersonExampleMap_Auto5A8646E034D4D5A5218B26FB92C8C4CE3.tmp' to 'G:/Git/VR_Battle/Battle/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2017.06.17-19.23.00:770][767]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto5.umap
+[2017.06.17-19.23.00:772][767]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.178
+[2017.06.17-19.23.00:772][767]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.178
+[2017.06.17-19.25.28:687][595]BlueprintLog: New page: Compile VR_CharacterBP
+[2017.06.17-19.25.33:895][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_CharacterBP" FILE="G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset" SILENT=true
+[2017.06.17-19.25.33:940][595]LogSavePackage: Save=37.49ms
+[2017.06.17-19.25.33:940][595]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/VR_CharacterBPE70B18034C2AFB907364CDBEC2033593.tmp' to 'G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset'
+[2017.06.17-19.25.33:942][595]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset
+[2017.06.17-19.25.34:743][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_CharacterBP" FILE="G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset" SILENT=true
+[2017.06.17-19.25.34:777][644]LogSavePackage: Save=30.31ms
+[2017.06.17-19.25.34:777][644]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/VR_CharacterBPECF420F249C8C9B8A93E56BC0FED62D7.tmp' to 'G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset'
+[2017.06.17-19.25.34:778][644]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset
+[2017.06.17-19.26.32:246][274]BlueprintLog: New page: Compile VR_CharacterBP
+[2017.06.17-19.26.44:305][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_CharacterBP" FILE="G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset" SILENT=true
+[2017.06.17-19.26.44:344][278]LogSavePackage: Save=36.52ms
+[2017.06.17-19.26.44:345][278]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/VR_CharacterBPA8DD590546DBF5C388AA768A7BA7FF38.tmp' to 'G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset'
+[2017.06.17-19.26.44:346][278]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset
+[2017.06.17-19.27.10:373][841]BlueprintLog: New page: Compile VR_CharacterBP
+[2017.06.17-19.27.17:873][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_CharacterBP" FILE="G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset" SILENT=true
+[2017.06.17-19.27.17:919][907]LogSavePackage: Save=41.85ms
+[2017.06.17-19.27.17:919][907]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/VR_CharacterBP7F86B01C48B94B047F1016B6B5DC7CFB.tmp' to 'G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset'
+[2017.06.17-19.27.17:921][907]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset
+[2017.06.17-19.28.10:722][619]BlueprintLog: New page: Compile EnemyBP
+[2017.06.17-19.28.11:531][673]LogSavePackage: Save=58.42ms
+[2017.06.17-19.28.11:532][673]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyBPDAA17C9046734F69428636B4EBD6A80F.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset'
+[2017.06.17-19.28.11:534][673]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset
+[2017.06.17-19.28.16:139][200]LogEditorViewport: Clicking on Actor (LMB): EnemyBP_C (EnemyBP)
+[2017.06.17-19.28.24:332][ 71]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.Actor_6.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2017.06.17-19.28.24:367][ 71]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_28:PersistentLevel.Actor_6.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2017.06.17-19.28.27:480][ 71]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.06.17-19.31.13:779][977]LogSavePackage: Save=13.25ms
+[2017.06.17-19.31.13:779][977]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_MontageF57A68494DED08FF32E124B1AABD0368.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_Montage.uasset'
+[2017.06.17-19.31.13:781][977]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_Montage.uasset
+[2017.06.17-19.31.28:686][684]BlueprintLog: New page: Compile EnemyBP
+[2017.06.17-19.31.30:460][743]LogSavePackage: Save=58.08ms
+[2017.06.17-19.31.30:461][743]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyBP928DEB72474CC2A1179CBEB842C303D2.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset'
+[2017.06.17-19.31.30:463][743]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset
+[2017.06.17-19.33.37:243][322]LogSavePackage: Save=14.64ms
+[2017.06.17-19.33.37:244][322]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_MontageF4BCFD29488EA5969687DBB7DCCE783F.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_Montage.uasset'
+[2017.06.17-19.33.37:246][322]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_Montage.uasset
+[2017.06.17-19.38.42:771][994]LogSavePackage: Save=15.59ms
+[2017.06.17-19.38.42:771][994]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_Montage0DF3062646B45B38FBBAA590CE334D01.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_Montage.uasset'
+[2017.06.17-19.38.42:774][994]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_Montage.uasset
+[2017.06.17-19.39.00:940][ 71]BlueprintLog: New page: Compile EnemyBP
+[2017.06.17-19.39.02:663][115]LogSavePackage: Save=57.95ms
+[2017.06.17-19.39.02:663][115]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyBP53DB4D0A4BBD7A2793535D96AD9EBFCF.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset'
+[2017.06.17-19.39.02:665][115]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset
+[2017.06.17-19.39.06:301][517]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.Actor_7.DebugSkelMeshComponent_10) Already registered. Aborting.
+[2017.06.17-19.39.06:510][517]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_31:PersistentLevel.Actor_7.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2017.06.17-19.39.46:286][641]LogSavePackage: Save=136.00ms
+[2017.06.17-19.39.46:286][641]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/ThirdPersonExampleMap_Auto6A6B32E6E482C6FA2E0CF61985F386E56.tmp' to 'G:/Git/VR_Battle/Battle/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto6.umap'
+[2017.06.17-19.39.46:288][641]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto6.umap
+[2017.06.17-19.39.46:290][641]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.172
+[2017.06.17-19.39.46:291][641]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.172
+[2017.06.17-19.39.46:296][641]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint] ([1] browsable assets)...
+[2017.06.17-19.39.46:311][641]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint]
+[2017.06.17-19.39.46:311][641]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint]
+[2017.06.17-19.39.46:563][641]LogSavePackage: Save=246.59ms
+[2017.06.17-19.39.46:564][641]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint_Auto6FFCFC2A74AFF6390B038B5B3E73831D2.tmp' to 'G:/Git/VR_Battle/Battle/Saved/Autosaves/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint_Auto6.uasset'
+[2017.06.17-19.39.46:565][641]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Saved/Autosaves/Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint_Auto6.uasset
+[2017.06.17-19.39.46:565][641]LogFileHelpers: Auto-saving content packages took 0.270
+[2017.06.17-19.42.38:135][ 85]LogSavePackage: Save=138.48ms
+[2017.06.17-19.42.38:136][ 85]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/ThirdPersonExampleMapB56F49C44DC07DCDFA1854A126521E43.tmp' to 'G:/Git/VR_Battle/Battle/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2017.06.17-19.42.38:138][ 85]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2017.06.17-19.42.38:173][ 85]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.244
+[2017.06.17-19.42.38:267][ 85]LogSavePackage: Save=66.19ms
+[2017.06.17-19.42.38:268][ 85]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyBP0CD051A749213AF3A75758B17FB213EC.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset'
+[2017.06.17-19.42.38:270][ 85]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset
+[2017.06.17-19.42.38:552][ 85]LogSavePackage: Save=258.83ms
+[2017.06.17-19.42.38:553][ 85]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint08A8ED82482715940A2B33AE77802DF0.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset'
+[2017.06.17-19.42.38:555][ 85]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/SK_Enemy_FrostGiant_Captain_Skeleton_AnimBlueprint.uasset
+[2017.06.17-19.42.38:580][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_CharacterBP" FILE="G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset" SILENT=true
+[2017.06.17-19.42.38:626][ 85]LogSavePackage: Save=39.88ms
+[2017.06.17-19.42.38:626][ 85]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/VR_CharacterBPDAFC992242B3C354F2421896EB342142.tmp' to 'G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset'
+[2017.06.17-19.42.38:627][ 85]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset
+[2017.06.17-19.42.39:328][154]BlueprintLog: New page: Compile VR_CharacterBP
+[2017.06.17-19.42.42:528][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_CharacterBP" FILE="G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset" SILENT=true
+[2017.06.17-19.42.42:570][202]LogSavePackage: Save=38.33ms
+[2017.06.17-19.42.42:570][202]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/VR_CharacterBPAA553319408FEE0382E807AD0E08D94E.tmp' to 'G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset'
+[2017.06.17-19.42.42:571][202]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/VR_CharacterBP.uasset
+[2017.06.17-19.45.20:810][285]BlueprintLog: New page: Compile EnemyBP
+[2017.06.17-19.45.22:920][335]LogSavePackage: Save=96.73ms
+[2017.06.17-19.45.22:920][335]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/EnemyBPB8A05F3547CF8A258E61E59CF98C7A4C.tmp' to 'G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset'
+[2017.06.17-19.45.22:923][335]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/EnemyBP.uasset
+[2017.06.17-19.46.43:136][458]LogSavePackage: Save=132.50ms
+[2017.06.17-19.46.43:136][458]LogSavePackage: Moving 'G:/Git/VR_Battle/Battle/Saved/ThirdPersonExampleMapBCA3956C4661AB7521D3898FD41F3038.tmp' to 'G:/Git/VR_Battle/Battle/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2017.06.17-19.46.43:139][458]LogSavePackage:Display: Finished SavePackage G:/Git/VR_Battle/Battle/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2017.06.17-19.46.43:165][458]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.252
+[2017.06.17-19.49.28:465][413]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.17-19.49.29:528][414]Cmd: QUIT_EDITOR

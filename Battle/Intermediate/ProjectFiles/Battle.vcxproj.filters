@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Battle.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{45F5BF30-B4A2-4C84-8DE4-959BD421A903}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Battle.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BattleEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{AA167373-419E-488D-93B0-48CE137BB24A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Battle">
+      <UniqueIdentifier>{A039B845-F179-4D3F-99A6-2877CCE4B727}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Battle\Battle.Build.cs">
+      <Filter>Source\Battle</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Battle\Battle.cpp">
+      <Filter>Source\Battle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Battle\Battle.h">
+      <Filter>Source\Battle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Battle\BattleCharacter.cpp">
+      <Filter>Source\Battle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Battle\BattleCharacter.h">
+      <Filter>Source\Battle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Battle\BattleGameMode.cpp">
+      <Filter>Source\Battle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Battle\BattleGameMode.h">
+      <Filter>Source\Battle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Battle\Enemy.h">
+      <Filter>Source\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Battle\VR_Character.h">
+      <Filter>Source\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Battle\EnemyController.h">
+      <Filter>Source\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Battle\BaseStateComponent.h">
+      <Filter>Source\Battle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Battle\Enemy.cpp">
+      <Filter>Source\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Battle\VR_Character.cpp">
+      <Filter>Source\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Battle\EnemyController.cpp">
+      <Filter>Source\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Battle\BaseStateComponent.cpp">
+      <Filter>Source\Battle</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
