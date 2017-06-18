@@ -1,3 +1,14 @@
-﻿  Target is up to date
+﻿  Parsing headers for BattleEditor
+    Running UnrealHeaderTool "G:\Git\VR_Battle\Battle\Battle.uproject" "G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\BattleEditor\Development\BattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for BattleEditor in 7.8712368 seconds
+  Deleting old hot reload file: "G:\Git\VR_Battle\Battle\Binaries\Win64\UE4Editor-Battle-1627.dll".
+  Deleting old hot reload file: "G:\Git\VR_Battle\Battle\Binaries\Win64\UE4Editor-Battle-1627.pdb".
+  Performing 4 actions (4 in parallel)
+  VR_Character.cpp
+  Battle.generated.cpp
+  [3/4] Link UE4Editor-Battle.dll
+  [4/4] Link UE4Editor-Battle.lib
+     正在建立程式庫 G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle.suppressed.lib 和物件 G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle.suppressed.exp
+     正在建立程式庫 G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle.lib 和物件 G:\Git\VR_Battle\Battle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Battle.exp
   Deploying BattleEditor Win64 Development...
-  Total build time: 1.52 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 11.85 seconds (Local executor: 3.11 seconds)
